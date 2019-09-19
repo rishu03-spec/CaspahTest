@@ -9,6 +9,7 @@ fields:
   name: date
   label: date
 pages:
+- content/contact/_index.md
 - content/faq/_index.md
 - content/affiliates/_index.md
 - content/refund_policy/_index.md
