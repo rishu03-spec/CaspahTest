@@ -20,3 +20,5 @@ fields:
 - type: textarea
   name: message1
   label: message1
+pages:
+- content/testimonial2.md
