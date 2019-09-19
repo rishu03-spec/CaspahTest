@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="col-sm-12 h1 text-primary text-center mt-5" style="margin-bottom: 1em; color: #3089c9;">{{.Title}}</div>
+<section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">                        
+                        <ul>
+                           {{ range (where .Data.Pages "Type" "blog")}}
+                            <li class="wow fadeInLeft animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible;">
+                                <div class="blog-img">
+                                    {{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive" alt="post-image" style="width:455px;height:284px;">{{end}}                                    
+                                </div>
+                                <div class="content-right text-justify">
+                                <h3 style="width: 90%;">{{ with .Title }} {{ . | safeHTML }} {{ end }}</h3>
+                                {{.Content}}
+                            </div>                            
+                                <a href="{{ .Permalink }}"><button type="button" class="btn">Read More</button></a>                            
+                            </li>
+                           {{end}}
+                         </ul>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <button class="btn btn-default">Learn More</button>
+              </div>
+            </div>
+          </div>
+{{partial "we_accept.html" . }}
+
+{{ end }}

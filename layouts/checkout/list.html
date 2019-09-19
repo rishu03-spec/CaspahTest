@@ -1,0 +1,328 @@
+{{ define "main" }}
+<div class="col-sm-12 h1 text-primary text-center mt-5" style="margin-bottom: 1em; color: #3089c9 !important">{{.Title}}</div>
+
+<section class="testi_text">
+   
+    <div class="container">
+    <div class="col-md-12 col-12 col-sm-12">
+
+<!-- ********************************** -->
+<div class="col-md-12 col-sm-12">
+	  <nav>
+		<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+		  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><img src="../images/billing.png" /><br/>Billing Address</a>
+		  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><img src="../images/shipping address.png" /><br/>Shipping Address</a>
+		  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="../images/shipping.png" /><br/>Shipping Method</a>
+		  <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false"><img src="../images/payment.png" /><br/>Payment Method</a>
+		  <a class="nav-item nav-link" id="nav-payemnt-tab" data-toggle="tab" href="#nav-payment" role="tab" aria-controls="nav-payment" aria-selected="false"><img src="../images/Vector Smart Object.png" /><br/>Checkout Confirmation</a>
+		</div>
+	  </nav>
+<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    <form action="#" accept-charset="utf-8">
+        <div class="col-sm-12 h3 text-primary text-center mt-5 affilate_heading" style="margin-bottom: 0.3em; color: #032248 !important;margin-top: 1rem!important;">Billing Address</div>
+    
+        <div class="wow animated" style="padding: 5px;">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                    <label class="control-label" for="name">COUNTRY</label>
+                    <select name="country" id="country" class="form-control">
+                        <option>Select</option>
+                        <option>United States</option>
+                        <option>United Kindom</option>
+                        <option>Canada</option>
+                        <option>Australia</option>
+                    </select>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                        <label class="control-label" for="name">FIRST NAME</label>
+                        <input class="form-control" name="firstname" placeholder="First Name" type="text" required />                                
+                    </div>                
+                    <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                        <label class="control-label" for="name">LAST NAME</label>
+                        <input class="form-control" name="lastname" placeholder="Last Name" type="text" required />
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                    <label class="control-label" for="name">STREET ADDRESS 1</label>
+                    <input class="form-control" name="streetaddress" placeholder="Street Address" type="text" required />                               
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4" style="padding-bottom: 10px;">
+                        <label class="control-label" for="name">ZIPCODE</label>
+                        <input class="form-control" name="zipcode" placeholder="Zipcode" type="text" required />                                
+                    </div>             
+                        <div class="col-lg-4 col-md-4 col-sm-4" style="padding-bottom: 10px;">
+                            <label class="control-label" for="name">CITY</label>
+                            <input class="form-control" name="city" placeholder="City" type="text" required />
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4" style="padding-bottom: 10px;">
+                        <label class="control-label" for="name">STATE</label>
+                        <select name="state" id="state" class="form-control">
+                            <option>Select</option>
+                            <option>Alabama</option>
+                            <option>California</option>
+                            <option>Delaware</option>
+                            <option>Hawaii</option>
+                        </select>
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                            <label class="control-label" for="name">TELEPHONE</label>
+                            <input class="form-control" name="telephone" placeholder="Telephone" type="text" required />                                
+                        </div>                
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                            <label class="control-label" for="name">EMAIL</label>
+                            <input class="form-control" name="email" placeholder="Email" type="text" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">                                                
+                        <p class="conditions" style="margin-left:2%;">
+                            <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something" />
+                            <span>My Shipping Address is the same as my Billing Address</span> </p>          
+                    </div>
+                </div>                    
+            </div>            
+                
+            <div class="panel-footer" style="margin-bottom:14px;"> 
+                <a  id="continue-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" class="btn btn-primary continue" style="background-color:#3089c9;border:#3089c9">Continue</a>
+            </div>
+    </form>
+</div>
+<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <form action="#" accept-charset="utf-8">
+        <div class="col-sm-12 h3 text-primary text-center mt-5 affilate_heading" style="margin-bottom: 0.3em; color: #032248 !important;margin-top: 1rem!important;">Shipping Address</div>
+    
+        <div class="wow animated" style="padding: 5px;">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                <label class="control-label" for="name">COUNTRY</label>
+                <select name="country" id="country" class="form-control">
+                    <option>Select</option>
+                    <option>United States</option>
+                    <option>United Kindom</option>
+                    <option>Canada</option>
+                    <option>Australia</option>
+                </select>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                    <label class="control-label" for="name">FIRST NAME</label>
+                    <input class="form-control" name="firstname" placeholder="First Name" type="text" required />                                
+                </div>                
+                <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                    <label class="control-label" for="name">LAST NAME</label>
+                    <input class="form-control" name="lastname" placeholder="Last Name" type="text" required />
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                <label class="control-label" for="name">STREET ADDRESS 1</label>
+                <input class="form-control" name="streetaddress" placeholder="Street Address" type="text" required />                               
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4" style="padding-bottom: 10px;">
+                    <label class="control-label" for="name">ZIPCODE</label>
+                    <input class="form-control" name="zipcode" placeholder="Zipcode" type="text" required />                                
+                </div>             
+                    <div class="col-lg-4 col-md-4 col-sm-4" style="padding-bottom: 10px;">
+                        <label class="control-label" for="name">CITY</label>
+                        <input class="form-control" name="city" placeholder="City" type="text" required />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4" style="padding-bottom: 10px;">
+                    <label class="control-label" for="name">STATE</label>
+                    <select name="state" id="state" class="form-control">
+                        <option>Select</option>
+                        <option>Alabama</option>
+                        <option>California</option>
+                        <option>Delaware</option>
+                        <option>Hawaii</option>
+                    </select>
+                </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                        <label class="control-label" for="name">TELEPHONE</label>
+                        <input class="form-control" name="telephone" placeholder="Telephone" type="text" required />                                
+                    </div>                
+                    <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                        <label class="control-label" for="name">EMAIL</label>
+                        <input class="form-control" name="email" placeholder="Email" type="text" required />
+                    </div>
+                </div>
+        </div>             
+        
+        <div class="panel-footer" style="margin-bottom:14px;"> 
+            <a id="back-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-profile" aria-selected="true" class="btn btn-secondary backbtn">Back</a>
+            <a  id="continue-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false" class="btn btn-primary continue" style="background-color:#3089c9;border:#3089c9">Continue</a>
+            <!-- <input type="submit" class="btn btn-primary continue" value="Continue"> -->
+        </div>
+    </form>
+</div>
+<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+    <div class="col-sm-12 h3 text-primary text-center mt-5 affilate_heading" style="margin-bottom: 0.3em; color: #032248 !important;margin-top: 0rem!important;">Shipping Method</div>
+        <p>Please select a shipping method to use on this order.</p>
+            <div class="form-check">
+            <strong>Domestic (USA) - Free Shipping</strong><br/>
+            <label class="form-check-label" for="radio1">
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>USPS First Class Mail (3-5 days) 
+            </label>
+
+            <span style="float: right;">$0.00</span>
+            </div>
+            <div class="form-check">
+            <strong>Domestic (USA) - Priority Mail</strong><br/>
+            <label class="form-check-label" for="radio2">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">USPS Priority Mail(2 days)
+            </label>
+            <span style="float: right;">$6.95</span>
+            </div>
+
+        <div class="shipping_methd">
+            <a id="back-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" class="btn btn-secondary backbtn">Back</a>
+            <a id="continue-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false" class="btn btn-primary continue" style="background-color:#3089c9;border:#3089c9">Continue</a>
+            <!-- <input type="submit" class="btn btn-primary continue" value="Continue"> -->
+            <div class="col-md-12 col-lg-12 col-sm-12 col-12" style="clear: both;"></div>
+        </div>
+                            
+</div>
+<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+    <div class="col-sm-12 h3 text-primary text-center mt-5 affilate_heading" style="margin-bottom: 0.3em; color: #032248 !important;margin-top: 0rem!important;">Payment Method</div>
+        <p>Please select a payment method to use on this order.</p>
+            <div class="form-check">
+                <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Credit Card / Debit Card (Authorise.Net)
+                </label>
+                </div>
+
+                <div class="form-check">
+                <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">PayPal
+                </label>
+                </div>
+
+                <div class="form-group comments">
+                <p>Comments</p>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+
+                <div class="shipping_methd">
+                <a id="back-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false" class="btn btn-secondary backbtn">Back</a>
+                <a id="continue-payemnt-tab" data-toggle="tab" href="#nav-payment" role="tab" aria-controls="nav-payment" aria-selected="false" class="btn btn-primary continue" style="background-color:#3089c9;border:#3089c9">Continue</a>
+                <!-- <input type="submit" class="btn btn-primary continue" value="Continue"> -->
+                <div class="col-md-12 col-lg-12 col-sm-12 col-12" style="clear: both;"></div>
+            </div>
+
+</div> 
+
+<div class="tab-pane fade" id="nav-payment" role="tabpanel" aria-labelledby="nav-payemnt-tab">
+        <div class="col-sm-12 h3 text-primary text-center mt-5 affilate_heading" style="margin-bottom: 0.3em; color: #032248 !important;margin-top: 1rem!important;">Checkout Confirmation</div>
+        <div class="col-md-12 col-lg-12 col-sm-12 col-12">
+
+            <div class="col-md-4 col-lg-4 col-sm-4 col-12 united_states">
+                <strong>Shipping Method</strong>
+                <p>USPS First Class Mail (3-5 days)</p>
+                <a href="javascript:void(0);" class="change" style="color: #38b0e3;font-weight: bold;"><u>Change</u></a><br/>
+
+                <strong>Payment Method</strong>
+                <p>PayPal</p>
+                <a href="javascript:void(0);" class="change" style="color: #38b0e3;font-weight: bold;"><u>Change</u></a>           
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-4 col-12 united_states">
+                <strong>Shipping Address</strong>
+                <p>backup</p>
+                <p>140 W 137th St,New York, NY 10030, USA</p>
+                <p>NEW YORK, New York 10030 United States</p>
+                <a href="javascript:void(0);" class="change" style="color: #38b0e3;font-weight: bold;"><u>Change</u></a>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-4 col-12 united_states" style="margin-bottom: 20px;">
+                <strong>Payment Address</strong>
+                <p>backup</p>
+                <p>140 W 137th St,New York, NY 10030, USA</p>
+                <p>NEW YORK, New York 10030 United States</p>
+                <a href="javascript:void(0);" class="change" style="color: #38b0e3;font-weight: bold;"><u>Change</u></a>
+            </div>
+
+            <div class="col-md-12 col-lg-12 col-sm-12 col-12" style="clear: both;overflow-x: auto;">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                            <th>Image</th>
+                            <th>Product</th>
+                            <th>Modal</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid #eee;">
+                            <td><img src="../images/cart1.png" class="img-responsive checkout_image"></td>
+                            <td>(1) Caspah Intimate Lightening Cream</td>
+                            <td>Intimate * 1</td>
+                            <td>1</td>
+                            <td>$39.95</td>
+                            <td>$39.95</td>
+                            </tr>
+            
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                            <td colspan="6" style="text-align: right;">Sub-Total $39.95</td>
+                            </tr>
+                            <tr>
+                            <td colspan="6" style="text-align: right;">USPS First Class Mail (3-5 days) $0.00</td>
+                            </tr> 
+                            <tr>
+                            <td colspan="6" style="text-align: right;">Total $39.95</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+            </div>
+            <div class="shipping_methd">
+            <a id="back-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false" class="btn btn-secondary backbtn">Back</a>
+            <input type="submit" class="btn btn-success" value="Confirm Order" style="float:right;background-color: #2aad48;border:#2aad48;color:#fff;">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-12" style="clear: both;"></div>
+            </div>
+            
+        </div>
+                
+</div>
+</div>
+    
+</div>
+
+</div>
+</div>
+
+<!-- ********************************** -->
+     
+    <div class="col-md-12 col-lg-12 col-sm-12 col-12 products_page1">
+        <div class="checkout_form">
+
+        </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<link rel="stylesheet" href="{{"css/checkoutStyle.css" | absURL}} ">
+{{"<!-- jQuery Nav -->" | safeHTML}}
+<script src="{{ "js/checkoutScript.js" | absURL}}"></script>
+{{partial "we_accept.html" . }}
+
+{{ end }}

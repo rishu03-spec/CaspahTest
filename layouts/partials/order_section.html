@@ -1,0 +1,24 @@
+ {{ if .Site.Params.ordersection.enable }}
+ <div class="container-fluid sectionlast" style="background-image: url('../images/footimg2.jpg');">
+		 <div class="container">
+			 <div class="col-sm-12 h4 pro2 mt-5 ">{{ with .Site.Params.ordersection.title }} {{ . | safeHTML }} {{ end }}</div>
+			 <div class="row">
+				 <div class="col-md-8 col-sm-8">
+						 <p class="text-justify tmt safe_gentle" > 
+							   <span>{{ with .Site.Params.ordersection.text }} {{ . | safeHTML }} {{ end }} </span>
+						 </p><br>
+						 <div class="col-sm-12">
+							<center><span class="Whynot">{{ with .Site.Params.ordersection.description }} {{ . | safeHTML }} {{ end }}</span><br>
+							 <span class="needskin">{{ with .Site.Params.ordersection.subtitle }} {{ . | safeHTML }} {{ end }}</span><br>
+							<div class="btn obtn btn-info m-2">ORDER NOW & GET FREE Domestic Shipping</div></center>
+						 </div>
+				</div>
+				 <div class="col-md-4 col-sm-4 pro1">
+					{{ with .Site.Params.bottleImg }}<img src="{{.url |absURL}}" class="bottels img-fluid">{{ end }}
+			     </div>
+		     </div>
+     </div>
+</div>
+ {{end}}
+
+ 

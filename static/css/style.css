@@ -1,0 +1,1271 @@
+@font-face {
+  font-family: "Caspah";
+  src: url("../myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF");
+ 
+  }
+*
+{
+  padding: 0px;
+  margin: 0px;
+  font-family:Caspah;
+}
+
+
+.bottels2 {
+	width: 100%;
+	height: auto;
+	
+position: relative;
+}
+.col-sm-2.p-2.h6.text-dark.text-center.Weaccept {
+    -webkit-text-stroke-width: medium;
+    margin-top: 1%;
+}
+
+.logo img
+{
+    height: 90px;
+    width: 150px;
+    margin-top: 1%;
+
+}
+.section1
+{
+  background-color: black;
+}
+.ss{
+  background-color: black;
+}
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+   
+.col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+		margin-left: -15px;
+}
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    .customcolor{
+        color:black;
+    }
+    
+    .ss{
+        background-color: black;
+        color:white;
+    }
+    .ss a{
+        color: white;
+    }
+    .c1{
+        color: black;
+       
+    }
+   
+.lighttext
+{
+    font-size: 30px;
+   
+}
+ .darktext{
+    font-size: 40px;
+}
+
+.splash {
+  /* background-image: url("images/background1.jpg"); */
+ width:100%;
+ height:500px;
+ color: #2196c4;
+ background-size: cover;
+ margin-top: 30px;
+ 
+ }
+ @media only screen and (max-width:834px) {
+  .splash{
+      background-image: url("images/Screenshot22.png");
+      background-size:cover;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height:auto;
+  }
+}
+@media only screen and (max-width:834px) {
+  .phoneback{
+      background-image: url("images/bottels.png");
+      height: 428px;
+      width: 100%;
+      background-size:cover;
+      display: block;
+      background-color: rgb(171, 199, 211); 
+  }
+}
+ .splashtext
+ {
+     color: #085472;
+     font-size: 20px;     
+ }
+ .girls
+ {
+  /* background-image: url("images/image_2019_08_06T09_29_01_950Z.png"); */
+  background-size: cover; 
+  width:100%;
+ height:650px;  
+ color: #085472;
+ }
+ @media only screen and (max-width:575px) {
+  .girls{
+    background-size:contain;
+    height:500px;
+     
+  }
+}
+@media only screen and (max-width:1199px) {
+  .girls{
+    background-size: contain; 
+     
+  }
+}
+.ice{
+	height: 20px;
+	width: 20px;
+}
+ .girl
+ {
+  /* background-image: url("images/poplour 2.png"); */
+  background-size: cover; 
+  width:100%;
+  height:650px;
+
+ }
+ .girltext
+ {
+  /* background-image: url("images/poplour 3.png"); */
+  background-size: cover; 
+  width:85%;
+ height:770px;
+ color: white;
+ }
+
+.testimonial {
+  /* background-image: url(image/image_2019_08_17T05_53_22_911Z.png); */
+	height: 700px;
+  width: 100%;
+  color: white;
+  background-size:cover;
+  padding-bottom:5%;
+  margin: 0px;
+}
+.testimonial p{
+    color: black;
+}
+.footer
+{
+   background-color: #00055c;
+   color: #f2f2f2;
+}
+.sectionlast
+{     height: auto;
+      background-color: rgb(216, 230, 236); /* For browsers that do not support gradients */
+      background-image: linear-gradient(rgb(200, 222, 224), rgb(163, 209, 221)); /* Standard syntax (must be last) */
+      width:100%;
+      color: rgb(4, 33, 87);
+      background-size:contain;
+      padding: 15px 0px;
+      padding-bottom: 0px;
+      
+}
+.sectionlast p{
+   color: black;
+}
+.footer{
+   margin-top: 0px;
+   background-color: #06264d;
+   
+}
+.footer a{
+   color:	#E8E8E8;
+   text-decoration: none;
+}
+hr{
+   height: 1px;
+   background-color: white;
+
+}
+.mauto
+{
+   margin: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0);
+   font-weight: 600; 
+}
+.container-fluid.splash.mt-4.img-responsive {
+  padding: 20px 0px;
+}
+img.img-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-table;
+  vertical-align: baseline;
+  margin-right: 5px;
+}
+ul{
+  list-style: none;
+}
+.sectionlast img
+{
+	width: 324px;
+	margin-top: 67px;
+}
+.lastimg
+{
+height:50%;
+width: 100%;
+/* object-fit: cover; */
+}
+.icenter {
+    height: 90px;
+    width: 110px;
+    
+}
+
+.lastimage
+{
+height:58px;
+width: 200px;
+object-fit:contain;
+ }
+
+ /* .firstimg 
+{ 
+  height:80px;
+   width: 200px; 
+  object-fit:contain; 
+ }  */
+
+@media only screen and (max-width:575px) {
+  .testimonial .leftimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-top:2px;
+      margin-bottom:2px;
+      
+  }
+}
+@media only screen and (max-width:991px) {
+  .sectionlast img {
+		width: 210px;
+		margin-top:205px;
+		height: 225px;
+      
+  }
+}
+@media only screen and (min-width:1200px) {
+  .testimonial .leftimage {
+  float: right;
+  margin-top:20px;
+	margin-bottom: 100px;
+	height:60%;
+	width: 50%;
+  }
+}
+@media only screen and (max-width:991px) {
+  .testimonial .leftimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+			width:40%;
+			height: 50%;
+   
+  }
+}
+@media only screen and (max-width:575px) {
+  .testimonialtext{
+      background-color: white;
+      background-size:cover;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-top-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      
+   
+  }
+}
+@media only screen and (max-width:1230px) {
+  .testimonialtext{
+      background-color: white;
+      background-size:cover;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-top-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+   
+  }
+}
+@media only screen and (max-width:1230px) {
+  .testimonial{
+      background-image: url(image/Screenshot2019.png);
+      background-size:cover;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+   
+  }
+}
+@media only screen and (max-width:1199px) {
+  .testimonial .leftimage {
+    margin-left: 21px;
+    height: 54%;
+    width: 74%;
+    margin-top: 109px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .testimonial .leftimage {
+    margin-left: -18px;
+    height: 25%;
+    width: 77%;
+    margin-top: 265px;
+  }
+}
+
+@media only screen and (max-width:1128px) {
+  .testimonial {
+		background-image: url(image/Screenshot2019.png);
+  }
+}
+@media only screen and (max-width:575px) {
+  .splash{
+    height:700px;
+  }
+}
+.card
+{
+  box-shadow: -2px 5px 10px 4px #e9e2e2;
+}
+.card-link
+{
+    background-color: #2196c4;
+}
+.faqcolor
+{
+    color: #06264d;
+}
+
+img.lastimage {
+  width: 120px;
+  padding: 7px;
+  margin: 10px;
+  margin-top: -6px;
+  height: 67px;
+}
+.acolor  {
+  color:#f88383;
+}
+a:hover {
+  color:#f87575;
+  text-decoration: none;
+}
+.products
+{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+@media only screen and (max-width:575px) {
+  .icenter{
+     margin-left: 39%;
+     
+  }
+}
+@media only screen and (max-width:991px) {
+  .phoneview .col-sm-1{
+      width: 25%;
+      margin-left: 14%;
+     
+  }
+}
+@media only screen and (max-width:575px) {
+  .phoneshot img{
+    display: none;
+     
+  }
+}
+
+    @media only screen and (max-width:1199px) {
+      .ero{
+        display: none;
+         
+      }
+		}
+	
+    .splashtext li{
+        margin-top: 40px;
+    }
+    @media only screen and (max-width:575px) {
+      .splashtext li{
+          margin-top: 10px;
+         
+      }
+    }
+    @media only screen and (max-width:575px) {
+      .splashtext {
+          margin-top: -17px;
+         
+      }
+    }
+    @media only screen and (max-width:575px) {
+      h1 {
+          font-size: 1.5rem;
+         
+      }
+    }
+    @media only screen and (max-width:575px) {
+      img.lastimage {
+          margin-top: 0px;
+          width: 118px;
+          padding: 12px;
+          margin-left: -20px;
+         
+      }
+    }
+    @media only screen and (max-width:575px) {
+      .phoneview .col-sm-1 .Weaccept{
+        width: 100%;
+         
+      }
+    }
+    @media only screen and (max-width:822px) {
+      .sectionlast img{
+        width: 186px;   
+			
+				margin-top: 205px;
+      }
+    }
+    @media only screen and (max-width:992px) {
+      .girls{
+        background-size: contain;
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  color: #0b6fc0;
+  background-color: rgb(163, 209, 221);
+       
+        
+      }
+    }
+    @media only screen and (max-width:992px) {
+      .girlstext{
+          margin-top: 80%;
+      }
+		}
+		@media only screen and (max-width:1199px) {
+      .girlstext{
+          margin-top: 85%;
+      }
+		}
+		@media only screen and (max-width:575px) {
+      .girls .girlstext{
+          margin-top: 89%;
+      }
+    }
+		@media only screen and (max-width:575px) {
+      .girls {
+          height:auto !important ;
+      }
+    }
+     .marl.mt-5 {
+      margin-left: -15px;
+    }
+		@media only screen and (max-width:1199px) {
+      .nav-item .nav-link {
+          font-size: 12px;
+        
+      }
+		}
+		@media only screen and (max-width:1199px) {
+			.bottels2 {
+		
+			margin-top:19%;
+		
+		}
+		@media only screen and (max-width:991px) {
+			.bottels2 {
+		
+			margin-top:58%;
+		
+		}
+		@media only screen and (max-width:950px) {
+			.bottels2 {
+			width: 103%;
+			height: auto;
+			margin-top: 63%;
+			position: relative;
+		}
+	
+		@media only screen and (max-width:767px) {
+			.bottels2 {
+			width: 103%;
+			height: 50%;
+			margin-top: 125%;
+			position: relative;
+		}
+		@media only screen and (max-width:540px){
+			.bottels2 {
+				width: 103%;
+				height: auto;
+				margin-top: -66%;
+				position: relative;
+			}
+			.phoneview {
+				margin-left: 0%;
+				margin-bottom: 5%;
+				text-align: center;
+		}
+		@font-face {
+			font-family: "Caspah";
+			src: url("myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF");
+		 
+			}
+		*
+		{
+			padding: 0px;
+			margin: 0px;
+			font-family:Caspah;
+		}
+		.phoneview {
+					margin-left: 14%;
+					margin-bottom: 5%;
+			 
+				}
+		.prd
+			{
+				margin-left: -29px;
+				font-size: 50px;
+			}
+			@media only screen and (max-width:540px){
+				prd{
+				 font-size: 15px !important;
+				}
+			
+				
+		.phoneshot {
+			width: 100%;
+		}
+				/* .navbar-expand-lg .navbar-nav { */
+			/* flex-direction: row; */
+			/* font-size: small !important; */
+		/* } */
+		.bottels2 {
+			width: 103%;
+			height: auto;
+			margin-top: -1%;
+			position: relative;
+		}
+			.splashtext li{
+				margin-top: 40px;
+			}	
+		.testimonialtext {
+			text-align: -webkit-center ;
+		}
+		.rounded-circle {
+			width: 50% !important;
+			height: auto !important;;
+		}
+		.col-sm-2.p-2.h6.text-dark.text-center.Weaccept {
+			-webkit-text-stroke-width: medium;
+			margin-top: 1%;
+		}
+		.wholesaletext {
+			font-size: 23px;
+		}
+		.bottels {
+			width: 100% ;
+			height: 100% ;
+			margin-top: 5px;
+		}
+		.mt-5, .my-5 {
+    margin-top: 6rem!important;
+
+
+		}
+		
+		.mv{
+			display: none;
+		}
+		.pro2{
+			color: #03244f!important;
+		
+		}
+		.logo img{
+			height: 90px;
+			width: 150px;
+			margin-top: 1%;
+	
+		}
+		.section1{
+			background-color: black;
+		}
+		.ss{
+			background-color: black;
+		}
+			/* Remove the navbar's default margin-bottom and rounded borders */ 
+			.navbar {
+				margin-bottom: 0;
+				border-radius: 0;
+			}
+			
+			/* Add a gray background color and some padding to the footer */
+			footer {
+				background-color: #f2f2f2;
+				padding: 25px;
+			}
+			.customcolor{
+				color:black;
+			}  
+			.ss{
+				background-color: black;
+				color:white;
+			}
+			.ss a{
+				color: white;
+			}
+			.c1{
+				color: black;
+				 
+			} 
+		.lighttext {
+			font-size: 30px;
+			padding-top: 3%;
+		}
+		.tect-left {
+			padding-top: 4%;
+		}
+		.coustomerssay{
+				font-size: 50px;
+		}
+		 .darktext{
+			font-size: 40px;
+		}
+		.splash {
+			/* background-image: url("images/background1.jpg"); */
+		 width:100%;
+		 height:500px;
+		 color: #2196c4;
+		 background-size: cover; 
+		 margin-top: 30px;
+		 }
+		 .splashtext {
+			 color: #085472;
+			 font-size: 20px;
+			 
+		 }
+		 .poplour{
+			font-family: times;
+	
+		 } 
+		 .girls {
+			/* background-image: url("images/image_2019_08_06T09_29_01_950Z.png"); */
+			background-size: cover; 
+			width:100%;
+		 height:650px;  
+		 color: #085472;
+		 }
+		 .girl {
+			/* background-image: url("images/poplour 2.png"); */
+			background-size: cover; 
+			width:100%;
+			height:650px;
+		 }
+		 .girltext {
+			/* background-image: url("images/poplour 3.png"); */
+			background-size: cover; 
+			width:85%;
+		 height:770px;
+		 color: white;
+		 }
+	
+		.testimonial {
+			/* background-image: url(image/image_2019_08_17T05_53_22_911Z.png); */
+			object-fit:cover;
+			width: 100%;
+			color: white;
+			background-size:cover;
+			padding-bottom:5%;
+			margin: 0px;
+		}
+		.testimonial p{
+			color: black;
+		}
+		.footer{
+			 background-color: #00055c;
+			 color: #f2f2f2;
+		}
+		.sectionlast{  
+			height: auto;
+				background-color: rgb(177, 213, 235);	 
+				background-image: linear-gradient(rgb(200, 222, 224), rgb(163, 209, 221));
+				width:100%;
+				background-repeat:no-repeat;
+				color: rgb(4, 33, 87);
+				background-size:contain;
+				padding: 15px 0px;
+				padding-bottom: 0px;
+				
+		}
+		.orderbtn {
+			width: 66% !important;
+			height: auto;
+		}
+	
+		.discolorations {
+			font-size: 16px;
+		}
+	
+		.Whynot {
+			color: #676463;
+		}
+	
+		.needskin {
+			font-size: x-large;
+		}
+	
+		.sectionlast p{
+			 color: black;
+		}
+		.footer{
+			 margin-top: 0px;
+			 background-color: #06264d;
+			 }
+		.footer a{
+			 color:	#E8E8E8;
+			 text-decoration: none;
+		}
+		hr{
+			 height: 1px;
+			 background-color: white;
+	
+		}
+		.mauto{
+			 margin: auto;
+		}
+		.navbar-light .navbar-nav .nav-link {
+			color: rgba(0,0,0);
+			 font-weight: 600; 
+		}
+		.container-fluid.splash.mt-4.img-responsive {
+			padding: 20px 0px;
+		}
+		img.img-icon {
+			width: 20px;
+			height: 20px;
+			display: inline-table;
+			vertical-align: baseline;
+			margin-right: 5px;
+		}
+		ul{
+			list-style: none;
+		}
+		.amazingresults {
+			margin-top: 2% !important;
+		}
+	
+	
+	/*	.lastimg{
+		height:49px;
+		width: 80px;
+		object-fit: cover;
+		}*/
+	/*	.icenter {
+			height: 90px;
+			width: 110px;
+			
+		}*/
+		/* .lastimage{ */
+		/* height:58px; */
+		/* width: 200px; */
+		/* object-fit:contain; */
+		 /* } */
+	
+		@media only screen and (min-width:1200px) {
+			
+			.bottels {
+			width: 100%;
+			height: 100%;
+		}
+			.testimonial .leftimage {
+			float: right;
+			margin-top:20px;
+			margin-bottom: 100px;
+			}
+			.bottels2 {
+			width: 103%;
+			height: auto;
+			margin-top: 0%;
+			position: relative;
+		}
+		}
+			
+		@media only screen and (max-width:1188px) {
+			
+		.bottels {
+			width: 100%;
+			height: 100%;
+		}
+	
+		.bottels2 {
+			width: 103%;
+			height: auto;
+			margin-top: 19%;
+			position: relative;
+		}
+	
+			}	
+	
+		}
+		@media only screen and (max-width:1150px) {
+			
+		.bottels {
+			width: 100%;
+			height: 100%;
+		}
+		@media only screen and (min-width:993px) {
+			
+		.girls	.girlstext {
+				margin-top: 100%;
+			}
+	.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+	}
+		.girlstext {
+			margin-top: 2%;
+			padding-right: 2%;
+			padding-left: 2%;
+		}
+	
+				
+			.ero{
+				display: none;
+				 
+				}
+			
+				.rounded-circle {
+			width: 100% ;
+			height: 100%;
+		}
+		.bottels2 {
+			width: 103%;
+			height: auto;
+			margin-top: 19%;
+			position: relative;
+		}
+	
+  }	
+	
+		}
+	@media only screen and (max-width:1109px) {
+			.bottels2 {
+			width: 103%;
+			height: auto;
+			margin-top: 20%;
+			position: relative;
+		}
+	.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+	}
+		}
+	@media only screen and (max-width:992px) {
+			.girls{
+				background-size: contain;
+			width: 100%;
+			height:650px;
+			background-repeat: no-repeat;
+			color: #103654;
+			background-color: rgb(163, 209, 221);
+	
+				}
+	
+		.discolorations {
+			font-size: 13px;
+		}  
+		.girlstext {
+			margin-top: 80%;
+			padding-right: 6%;
+			padding-left: 6%;
+		}
+		.discolorations {
+			font-size: 10px;
+		}
+			 .marl.mt-5 {
+				margin-left: -15px;
+			}	 
+			.rounded-circle {
+			width: 100% ;
+			height: 100%;
+		}
+		.bottels2 {
+			width: 103%;
+			height: auto;
+			margin-top: 60%;
+			position: relative;
+		}
+	.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+	}
+			}
+	@media only screen and (max-width:991px) {
+			
+		.bottels {
+			width: 100%;
+			height: auto;
+		}
+			
+	
+	
+			.testimonial .leftimage {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 80%;
+			 
+			}
+	
+			 .rounded-circle {
+			width: 100% ;
+			height: 100%;
+		}
+	.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+	}
+		}
+	@media only screen and (max-width:950px) {
+			.bottels2 {
+				width: 117%;
+				height: 55%;
+				margin-top:67%;
+				position: relative;
+		}
+	}
+		@media only screen and (max-width:767px) {
+			.bottels2 {
+			
+				margin-top:106%;
+			
+		}
+	}
+	.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+	}
+	.phoneview {
+			margin-left: 0%;
+			margin-bottom: 5%;
+			text-align: center;
+	}
+		}
+
+	.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+	}
+	.phoneview {
+			margin-left: 0%;
+			margin-bottom: 5%;
+			text-align: center;
+	}
+		}
+	@media only screen and (max-width:834px) 
+	{
+		.splash{
+				background-image: url("images/Screenshot22.png");
+				background-size:cover;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			
+		}
+		.poplour {
+			font-family: times;
+			font-size: 23px;
+		}
+		.phoneback{
+				background-image: url("images/bottels.png");
+				height: 428px;
+				width: 100%;
+				background-size:cover;
+				display: block;
+				background-color: rgb(171, 199, 211); 
+		}
+		.rounded-circle {
+			width: 100% ;
+			height: 100%;
+		}
+		
+		.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+		}
+		.phoneview {
+			margin-left: 0%;
+			margin-bottom: 5%;
+			text-align: center;
+	}
+		}
+	
+	.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+	}
+		}
+		@media only screen and (max-width:767px) {
+			.sectionlast img {
+				margin-top: 373px;
+			}
+		}
+			@media only screen and (max-width: 575px){
+			.sectionlast img {
+				margin-top: -7px;
+				margin-left: 35%;
+				height: 200px;
+			}
+		}
+		@media only screen and (max-width: 500px){
+			.sectionlast img {
+			
+				margin-left: 31%;
+				
+			}
+		}
+		@media only screen and (max-width:450px){
+			.sectionlast img {
+			
+				margin-left: 28%;
+				
+			}
+		}
+		@media only screen and (max-width:300px){
+			.sectionlast img {
+			
+				margin-left:15%;
+				
+			}
+		}
+		@media only screen and (max-width:200px){
+			.sectionlast img {
+			
+				margin-left:0%;
+				
+			}
+		}
+		@media only screen and (max-width: 575px){
+			.prd {
+				margin-left: 5px;
+			}
+		}
+		@media only screen and (max-width: 575px){
+			.col-sm-12 {
+				margin-left: 0px;
+			}
+		}
+		
+	.phoneview {
+			margin-left: 0%;
+			margin-bottom: 5%;
+			text-align: center;
+	}
+		
+		.sectionlast img .erolast
+		{
+			width: 319px;
+			margin-top: 0px;
+		}
+	@media only screen and (max-width:575px) {
+		.girlstext {
+			margin-top: 80%;
+			padding-right: 6%;
+			padding-left: 6%;
+			font-size: 13px;
+			margin-bottom: 46px;
+		}
+	}		
+				.bottels {
+			width: 100%;
+			height: 100%;
+		}
+				
+				.splashtext li{
+					margin-top: 10px;
+				 color: #085472;
+				}
+	
+	
+				h1 {
+					font-size: 1.5rem;
+				 
+				}
+	
+				img.lastimage {
+					margin-top: 0px;
+					width: 118px;
+					padding: 12px;
+					margin-left: -20px;
+				 
+				}
+	
+	/*		  .phoneview .col-sm-1 .Weaccept{
+				width: 100%;
+				 
+				}*/
+	
+		.testimonial .leftimage {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			height: 78%;
+			margin-top: 5px;
+		}
+	
+	.testimonialtext {
+			background-color: white;
+			background-size: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom:15%;
+			border-top-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+		
+	}
+			
+		.discolorations {
+			font-size: 16px;
+			padding-right: 17%;
+		}
+	
+			.splash{
+			height:auto;
+			}
+	
+		.card
+		{
+			box-shadow: -2px 5px 10px 4px #e9e2e2;
+		}
+		.card-link
+		{
+			background-color: #2196c4;
+		}
+		.faqcolor
+		{
+			color: #06264d;
+		}
+	
+		/* img.lastimage { */
+			/* width: 120px; */
+			/* padding: 7px; */
+			/* margin: 10px; */
+			/* margin-top: -6px; */
+			/* height: 67px; */
+		/* } */
+		.acolor  {
+			color:#f88383;
+		}
+		a:hover {
+			color:#f87575;
+			text-decoration: none;
+		}
+		.products
+		{
+			margin-left: 25%;
+			margin-right: 25%;
+		}
+	
+	/*	  .icenter{
+			 margin-left: 39%;
+			 
+			}*/
+	
+	
+			.phoneshot img{
+			display: none;
+			 
+			}
+				.rounded-circle {
+			width: 100% ;
+			height: 100%;
+		}
+	.bottels2 {
+	display: none;
+	}
+	.phoneview {
+			margin-left: 0%;
+			margin-bottom: 5%;
+			text-align: center;
+	}
+	
+	
+	

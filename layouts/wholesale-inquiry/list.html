@@ -1,0 +1,107 @@
+{{ define "main" }}
+<div class="container">
+        <div class="col-sm-12 h1 text-primary text-center mt-5 h1 pro1">{{.Title }}</div>
+        <h4 class="text-center">
+                {{ .Content }}
+        </h4>
+     </div>
+     <!-- section 2 -->     
+<section>
+    <div class="container">
+    <div class="row">
+        {{ range (where .Data.Pages "Type" "saleproduct")}}
+        <div class="col-md-4 col-4 col-sm-4 col-12 sitemap_wrap">                        
+                {{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive  products" alt="Image">{{end}}
+        <p class="h5 text-primary text-center">{{ with .Description }} {{ . | safeHTML }} {{ end }}</p>
+        </div>
+        {{end}}            
+    </div>
+    </div>
+</section>     
+     <!-- section 3 -->
+     <section class="Material-contact-section section-padding section-dark">
+            <div class="container">
+               
+                <div class="row">
+                    <!-- Section Titile -->
+                    <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft text-justify" data-wow-delay=".2s">
+                            {{ range (where .Data.Pages "Type" "Wholesaledesc")}}{{ .Content }} {{end}}
+                      
+                    </div>
+                    <!-- contact form -->
+                    <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                        <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator" style="margin-top:12px;">
+                            <!-- Name -->
+                            <div class="form-group label-floating">
+                              <label class="control-label" for="name">Name</label>
+                              <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                              <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- email -->
+                            <div class="form-group label-floating">
+                              <label class="control-label" for="email">Email</label>
+                              <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                              <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Subject -->
+                            <div class="form-group label-floating">
+                              <label class="control-label">Subject</label>
+                              <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject" value="Wholesale Inquiry" disabled>
+                              <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Message -->
+                            <div class="form-group label-floating">
+                                <label for="message" class="control-label">Message</label>
+                                <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Form Submit -->
+                            <div class="form-submit mt-5">
+                                <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </section>
+        
+     <!-- <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 mt-5 text-justify text-dark">
+                            {{ range (where .Data.Pages "Type" "Wholesaledesc")}}<p>{{ .Content }} </p>{{end}}
+                    </div>
+                    <div class="col-sm-6 mt-5 ">
+                           <form action="/action_page.php">
+                            <div class="row"> 
+                               <div class="col-sm-6">
+                                   <div class="form-group">
+                                   <label for="usr" class="text-primary">Name*</label>
+                                   <input type="text" class="form-control" id="usr" name="username">
+                                   </div>
+                               </div>
+                               <div class="col-sm-6">
+                                   <div class="form-group">
+                                   <label for="email" class="text-primary">Enter your email address*</label>
+                                   <input type="email" class="form-control" id="email" name="password">
+                                   </div>
+                               </div>
+                           </div>  
+                               <div class="form-group">
+                                       <label for="sub" class="text-primary">Subject*</label>
+                                       <input type="text" class="form-control" id="sub" name="password">
+                                     </div>
+                                     <div class="form-group">
+                                           <label for="comment" class="text-primary">Message*</label>
+                                           <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                                         </div>
+                               <button type="submit" class="btn btn-primary mb-5">Send message</button>
+                             </form class="">
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        {{partial "we_accept.html" . }}
+        {{end}}

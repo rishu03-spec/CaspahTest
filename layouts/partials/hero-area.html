@@ -1,0 +1,30 @@
+
+{{ if .Site.Params.heroArea.enable }} 
+<section>
+    <div class="container-fluid mainbg img-fluid" style="background-image: url('../images/background1.jpg');">
+        <div class="col-sm-12 h2 display-4 text-center pt-2 pro1 mt-3">{{ with .Site.Params.heroArea.title }} {{ . | safeHTML }} {{ end }}</div>       
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 text-left">                            
+                    {{ with .Site.Params.heroImg }}<img src="{{ .url | absURL }}" class="bottels2 img-fluid">{{end}}
+                    </div>
+                <div class="col-sm-4 text-left pro1">
+                    <ul>
+                        {{ range .Site.Params.heroArea.feature1 }}
+                            <li><img src="{{ .URL }}" class="img-icon mainli" />{{.features1}}</li>
+                        {{ end }}                              
+                    </ul>
+                </div>                        
+                <div class="col-sm-4 text-left pro2" style="margin-bottom:30px;">                            
+                    <ul>
+                        {{ range .Site.Params.heroArea.feature2 }}
+                            <li><img src="{{ .URL }}" class="img-icon mainli" />{{.features2}}</li>
+                        {{ end }}                                
+                    </ul><br>
+                </div>                                   
+            </div>
+        </div>
+    </div>           
+</section>
+{{ end }}
+

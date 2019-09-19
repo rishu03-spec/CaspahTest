@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="col-sm-12 h1 text-primary text-center mt-5 h1 pro1">{{.Title}}</div></br>
+
+<section class="testi_text">   
+    <div class="container">
+        <div class="col-md-12 col-12 col-sm-12">
+            {{ range (where .Data.Pages "Type" "infoproduct")}}   
+            <div class="col-md-4 col-4 col-sm-4 col-12 sitemap_wrap">
+                {{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive" alt="Image">{{end}}
+            <h3>{{ with .Title }} {{ . | safeHTML }} {{ end }}</h3> 
+            </div>
+            {{end}}
+        </div>   
+        <div class="col-md-12 col-12 col-sm-12">
+          <div class="personal_information">        
+            {{.Content}}
+          </div>
+        </div>
+  </div>
+</section>
+{{partial "we_accept.html" . }}
+{{end}}

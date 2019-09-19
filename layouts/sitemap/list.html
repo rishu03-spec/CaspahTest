@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="col-sm-12 h1 text-primary text-center mt-5 h1 pro1">{{.Title}}</div></br>
+
+<section class="testi_text">
+   
+    <div class="container">
+    <div class="col-md-12 col-12 col-sm-12">
+      {{ range (where .Data.Pages "Type" "sitemapproduct")}}   
+      <div class="col-md-4 col-sm-4 col-12 sitemap_wrap">
+            {{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive" alt="Image">{{end}}
+        <p class="h5 text-primary text-center">{{ with .Title }} {{ . | safeHTML }} {{ end }}</p> 
+      </div>
+     {{end}}
+  </div>
+  <div class="col-md-12 col-sm-12 col-12" style="clear: both;">
+      <div class="row">        
+        <div class="col-md-5 col-sm-5 col-12 sitemap_wrap2">
+            <ul>
+            <li><a href="/"><i class="fa fa-star" aria-hidden="true"></i> Home</a></li>
+            <li><a href="../salons"><i class="fa fa-star" aria-hidden="true"></i> SALONS</a></li>
+            <li><a href="../contact"><i class="fa fa-star" aria-hidden="true"></i> CONTACT US</a></li>
+            <li><a href="../product"><i class="fa fa-star" aria-hidden="true"></i> PRODUCTS</a></li>
+            <li><a href="../affiliates"><i class="fa fa-star" aria-hidden="true"></i> AFFILIATES</a></li>
+            <li><a href="../about"><i class="fa fa-star" aria-hidden="true"></i> ABOUT US</a></li>
+            <li><a href="../sitemap"><i class="fa fa-star" aria-hidden="true"></i> SITEMAP</a></li>
+            <li><a href="../blog"><i class="fa fa-star" aria-hidden="true"></i> BLOG</a></li>
+            <li><a href="../faq"><i class="fa fa-star" aria-hidden="true"></i> FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-5 col-sm-6 col-12 sitemap_wrap2" >
+            <ul>
+            <li><a href="../testimonials"><i class="fa fa-star" aria-hidden="true"></i> Caspah Reviews & Testimonials</a></li>
+            <li><a href="../wholesale-inquiry"><i class="fa fa-star" aria-hidden="true"></i> Wholesale Bleaching Cream</a></li>
+            <li><a href="../intimate-lightening-cream"><i class="fa fa-star" aria-hidden="true"></i> Intimate Lightening Cream</a></li>            
+            <li><a href="../scar-lightening-cream"><i class="fa fa-star" aria-hidden="true"></i> Scar Lightening Cream</a></li>
+            <li><a href="../spot-lightening-cream"><i class="fa fa-star" aria-hidden="true"></i> Spot Lightening Cream</a></li>
+            <li><a href="../vaginal-bleaching"><i class="fa fa-star" aria-hidden="true"></i> Vaginal Bleaching</a></li>
+            <li><a href="../anal-bleaching"><i class="fa fa-star" aria-hidden="true"></i> Anal Bleaching</a></li>           
+            <li><a href="../refund_policy"><i class="fa fa-star" aria-hidden="true"></i> Refunds</a></li>
+            <li><a href="../privacy_policy"><i class="fa fa-star" aria-hidden="true"></i> Privacy</a></li>
+            <li><a href="../shipping-policy"><i class="fa fa-star" aria-hidden="true"></i> Shipping</a></li>
+            <li><a href="../thankyou"><i class="fa fa-star" aria-hidden="true"></i> Thank You</a></li> 
+            </ul>
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+</section>
+{{partial "we_accept.html" . }}
+{{end}}

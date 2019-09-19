@@ -1,0 +1,26 @@
+{{ "<!-- gallery start -->" | safeHTML }}
+{{ if .Site.Params.gallery.enable }} 
+<section>
+	 <div class="container">    
+		 <div class="row">
+			 <div class="col-md-6 col-lg-6 col-xl-6 mt-5 wrap_first" >	
+					<img src="images/poplour5.png" class="img-fluid">			 
+					 <div class="text-block">						 
+							<h5 class="caspah_light">{{ with .Site.Params.gallery.girltext.title }} {{ . | safeHTML }} {{ end }} </h5>
+							<h2 class="caspah_h2">{{ with .Site.Params.gallery.girltext.subtitle }} {{ . | safeHTML }} {{ end }}</h2>					
+							<p class="caspah_text">{{ with .Site.Params.gallery.girltext.text }} {{ . | safeHTML }} {{ end }} </p>				
+					</div>				
+			</div>			
+			 <div class="col-md-6 col-lg-6 col-xl-6 mt-5">
+					<img src="images/image_2019_08_06T09_29_01_950Z.png" class="img-fluid">
+				<div class="text-block2 text-center text-justify">						
+					<h5 class="caspah_lightAll">{{ with .Site.Params.gallery.girlskintype.title }} {{ . | safeHTML }} {{ end }}</h5>
+					<h2 class="caspah_h2Skin">{{ with .Site.Params.gallery.girlskintype.subtitle }} {{ . | safeHTML }} {{ end }}</h2>  
+					<p class="caspah_text">{{ with .Site.Params.gallery.girlskintype.text }} {{ . | safeHTML }} {{ end }}</p>
+				</div>
+			</div>
+		 </div>
+	 </div>
+</section>
+{{end}}
+

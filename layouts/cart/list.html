@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<div class="col-sm-12 h1 text-primary text-center mt-5" style="margin-bottom: 1em; color: #3089c9 !important">{{.Title}}</div>
+
+
+<section class="testi_text">
+      <div class="container">
+        <div class="col-md-12 col-12 col-sm-12" style="overflow-x: auto;">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="add_cart"><img src="../images/cart1.png" class="img-responsive cart_image"></td>
+                <td>Caspah Spot Lightening Cream<br/>
+                  <span>Spot*2</span></td>
+                <td>$69.95</td>
+                <td><input type="text" class="price" name="price" value="2"> <span><i class="fa fa-refresh" aria-hidden="true" style="color:blue;"></i></span> <span ><i class="fa fa-trash" aria-hidden="true" style="color:red;"></i></span></td>
+                <td>$140.00</td>
+              </tr>
+              <tr>
+                <td class="add_cart"><img src="../images/cart2.png" class="img-responsive cart_image"></td>
+                <td>Caspah Spot Lightening Cream<br/>
+                  <span>Spot*2</span></td>
+                <td>$69.95</td>
+                <td><input type="text" class="price" name="price" value="1"> <span><i class="fa fa-refresh" aria-hidden="true" style="color:blue;"></i></span> <span><i class="fa fa-trash" aria-hidden="true" style="color:red;"></i></span></td>
+                <td>$140.00</td>
+              </tr>
+            </tbody>
+            <tfoot>
+                <tr class="subtotal_row">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                <td class="subtotal">Subtotal</td>   
+                <td class="subtotal">$71.97</td> 
+                </tr>
+                <tr class="grand_total">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="subtotal">Grand Total</td>   
+                <td class="subtotal">$71.97</td>
+                </tr>
+                <tr class="checkout">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="checkout_button"><a href="../checkout"><span class="btn btn-success">Checkout</span></a></td>
+                </tr>
+            </tfoot>
+         </table>
+          <div class="col-md-12 col-12 col-sm-12"></div>
+        </div>
+      </div>
+</section>
+<link rel="stylesheet" href="{{"css/cartStyle.css" | absURL}} ">
+{{partial "we_accept.html" . }}
+
+{{ end }}

@@ -1,0 +1,19 @@
+enable : true
+testimonialItem :
+  - name1 : May C.
+    image1 : images/client1.jpg
+    date1 : Sept 7, 2018
+    address1: San Diego, CA - Scar
+    content1 : I just wanted to send you a message to thank you. I used Caspah to lighten a really blatant scar from the c-section I had after giving birth to my son. I applied it as I was directed to do by your customer service person that I emailed and am very impressed with my result. I know I asked a ton of questions before making my purchase, but I am very satisfied with the end result. I would recommend this cream to anyone looking to lighten a c-section scar.
+    
+  - name2 : Maria D.
+    image2 : images/client2.jpg
+    date2 : Aug 29, 2018
+    address2: San Diego, CA - Scar
+    content : Thank you Caspah. I used Caspah to lighten a really blatant scar from the c-section I had after giving birth to my daughter. I applied it as I was directed to do by your customer service person that I emailed and very impressed with my result. I am very satisfied with the end result. I would recommend this cream to anyone looking a lighten a c-section scar.
+    
+  - name3 : Yve lavine
+    image3 : images/client3.jpg
+    date3 : Aug 20, 2018
+    address3: San Diego, CA - Scar
+    content3 : A big thank you. I used Caspah to lighten a really blatant scar from the c-section I had after giving birth to my son. I applied it as I was directed to do by your customer service person that I emailed and am very impressed with my result. I would recommend this cream to anyone looking to lighten a c-section scar.

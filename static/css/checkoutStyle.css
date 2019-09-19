@@ -1,0 +1,140 @@
+.row{
+    margin-bottom: 10px;
+}
+.tab-pane{
+    padding:0px 20px 20px 20px;
+}
+
+form.form_checkout{
+    padding: 0px 30px;
+  }
+
+  .checkout_name{
+    padding-left: 0px;
+  }
+   .form-group {
+        margin-bottom: 0.6rem;
+    }
+
+    .checkout_form{
+      text-align: left;
+    }
+
+    .checkout_name{
+      float: left;
+    }
+
+    .products_page1{
+      float: left;
+    }
+
+    .checkout_name1{
+      float: left;
+      padding-right: 0px;
+    }
+
+    .form-group {
+          margin-bottom: 2em;
+      }
+
+      .continue{
+        float: right;
+        color:#fff;
+        border:none;
+      }
+      .shipping_methd {
+        margin-top: 4em;
+        margin-bottom: 1em;
+    }
+    .backbtn{
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+nav > .nav.nav-tabs{
+
+    border: none;
+      color:#fff;
+      background:#06264d;
+      border-radius:0;
+  
+  }
+  nav > div a.nav-item.nav-link
+    {
+    border: none;
+      padding: 18px 25px;
+      color:#fff;
+      background:#06264d;
+      border-radius:0;
+  }
+  nav > div a.nav-item.nav-link.active
+  {
+    border: none;
+      padding: 18px 25px;
+      color:green;
+      background:#06264d;
+      border-radius:0;
+  }
+  
+  nav > div a.nav-item.nav-link.active img{
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 green);
+    filter: opacity(.5) drop-shadow(0 0 0 green);
+  }
+  
+  .tab-content{
+    background: #fdfdfd;
+      line-height: 25px;
+      border: 1px solid #ddd;
+      padding:30px 25px;
+  }
+  
+  nav > div a.nav-item.nav-link:hover,
+  nav > div a.nav-item.nav-link:focus
+  {
+    border: none;
+      background: #06264d;
+      color:green;
+      border-radius:0;
+      transition:background 0.20s linear;
+  }
+
+  nav > div a.nav-item.nav-link:hover img,
+  nav > div a.nav-item.nav-link:focus img{
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 green);
+    filter: opacity(.5) drop-shadow(0 0 0 green);
+  }
+  
+  div#nav-contact {
+      padding: 20px 40px;
+  }
+  
+  div#nav-about {
+      padding: 20px 40px;
+  }
+  
+  .form-group.comments p {
+      text-align: center;
+      margin-top: 2em;
+      color: #3089c9;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  .united_states{
+    float: left;
+  }
+  .change {
+    border: 0px;
+    color: #38b0e3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.change :hover{
+    background-color: transparent;
+    border: 0px;
+    color: #38b0e3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.table-bordered td, .table-bordered th {
+    border: 0;
+}

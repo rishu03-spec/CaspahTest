@@ -1,0 +1,189 @@
+{{ define "main" }}
+{{ if .Site.Params.heroArea.enable }} 
+<section>
+    <div class="container-fluid mainbg img-fluid" style="background-image: url('../images/background1.jpg');">
+        <div class="col-sm-12 h2 display-4 text-center pt-2 pro1 mt-3">{{ with .Site.Params.heroArea.title }} {{ . | safeHTML }} {{ end }}</div>       
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 text-left">                            
+                    {{ with .Site.Params.heroImg }}<img src="{{ .url | absURL }}" class="bottels2 img-fluid">{{end}}
+                </div>
+                <div class="col-sm-4 text-left pro1">
+                    <ul>
+                        {{ range .Site.Params.heroArea.feature1 }}
+                            <li><img src="{{ .URL }}" class="img-icon mainli" />{{.features1}}</li>
+                        {{ end }}                              
+                    </ul>
+                    <!-- <div class="button" style="text-align: center;clear: both;margin-top:30px;float:none;margin-bottom:20px;">
+                      <button class="btn btn btn-primary caspah_now" >Get the Caspah Now!</button>
+                  </div>  -->
+                </div>                        
+                <div class="col-sm-4 text-left pro2" style="margin-bottom:30px;">                            
+                    <ul>
+                        {{ range .Site.Params.heroArea.feature2 }}
+                            <li><img src="{{ .URL }}" class="img-icon mainli" />{{.features2}}</li>
+                        {{ end }}                                
+                    </ul>
+                </div>                  
+                  <button class="btn btn btn-primary caspah_now" style="color:#fff;">Get the Caspah Now!</button>                       
+            </div>
+        </div>
+    </div>           
+</section>
+{{ end }}
+<div class="col-sm-12 h1 text-primary text-center mt-5 h1 pro1">{{.Title}}</div>
+<div class="col-sm-12 h1 text-primary text-center mt-5" style="margin-bottom: 0.3em; color: #032248 !important">{{.Params.description}} </div>
+<h3 class="choose_perfect" style="text-align: center;padding: 10px;">{{ .Content }}</h3>
+
+<section class="testi_text">
+
+<div class="container text-center">
+     <div class="row">  
+    {{ range (where .Data.Pages "Type" "product")}}
+  <div class="col-sm-4 mt-3 pro1">
+    <div class="caspah_product"  style="box-shadow: -2px 5px 10px 4px #f1f1f1; padding: 10px;">
+        {{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive" style="width:100%" alt="Image">{{end}}
+     <h3 style="text-align:center;">{{ with .Title }} {{ . | safeHTML }} {{ end }}</h3>
+     <p style="text-align:center;">{{ with .Description }} {{ . | safeHTML }} {{ end }}</p>     
+        <div class="row">
+						<div class="col-md-6 col-lg-6 col-sm-12 col-6"><a href="../cart" class="text-left acolor" style="color: #f48e8a;">Order now</a></div>
+						<div class="col-md-6 col-lg-6 col-sm-12 col-6">              
+              <img src="../images/star.png" class="ice">
+              <img src="../images/star.png" class="ice">
+              <img src="../images/star.png" class="ice">
+              <img src="../images/star.png" class="ice">
+              <img src="../images/star1.png" class="ice">
+            </div>
+				</div>   
+    </div>
+  </div>
+  {{end}} 
+</div> 
+</div>
+</section>
+
+<section class="mt-5">
+    {{ range (where .Data.Pages "Type" "why")}}
+  <div class="popular" style="background-color: #06264d;color:white;">
+    <div class="container" style="text-align:center;padding-top:15px;padding-bottom:15px;">
+      <h2 style="font-family: Times New Roman;">{{ with .Title }} {{ . | safeHTML }} {{ end }}</h2>
+      
+    </div>
+  </div>
+  <div class="popular2" style="background-color:#efefef">
+   
+      <div class="col-md-12 co-sm-12 col-12">
+          <div class="row">
+            <div class="col-md-7 co-sm-12 cosmetics">
+              {{ with .Content }} {{ . | safeHTML }} {{ end }}
+              <ul>
+                <li><img src="../images/tick.png" class="img-responsive tickmark">  <span style="margin-left:8px;">{{ with .Params.description1 }} {{ . | safeHTML }} {{ end }}</span></li>
+                <li style="margin-top:10px;"><img src="../images/tick.png" class="img-responsive tickmark">  <span style="margin-left:8px;">{{ with .Params.description2 }} {{ . | safeHTML }} {{ end }}</span></li>
+                <li style="margin-top:10px;"><img src="../images/tick.png" class="img-responsive tickmark">  <span style="margin-left:8px;">{{ with .Params.description3 }} {{ . | safeHTML }} {{ end }}</span></li>
+              </ul>
+              <div class="get_caspah" style="margin-top: 40px;margin-left: 0px;margin-bottom:1px;">
+              <button class="btn btn btn-primary caspah_now" >Get the Caspah Now!</button>
+              </div>
+            </div>
+
+
+            <div class="col-md-5 co-sm-12 girlImg"  style="background-image: url(../images/slide-cosmetics-3.png);">
+             
+              <!-- <img src="../images/slide-cosmetics-3.png" class="img-responsive" style="width:85%;"> -->
+            </div>
+        </div>
+      </div> 
+  </div>
+  {{end}}
+</section>
+
+<section>
+  <div class="container">
+      {{ range (where .Data.Pages "Type" "protestimony")}}
+    <div class="col-sm-12 col-md-12 col-lg-12 h1 text-primary text-center mt-5" style="margin-bottom: 0.3em; color: #032248 !important">{{ with .Title }} {{ . | safeHTML }} {{ end }}</div>
+
+    <div class="col-md-9 col-lg-9 col-sm-12 col-12 testimonail_product">
+      <div class="col-md-4 col-lg-4 col-sm-4 col-6 col-12 star_section">
+      <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+
+              <p>{{ with .Params.testiname1 }} {{ . | safeHTML }} {{ end }}</p>
+      </div>
+      <div class="col-md-8 col-lg-8 col-sm-8 col-8 col-12 text_section">
+        <strong>{{ with .Params.subtitle1 }} {{ . | safeHTML }} {{ end }}</strong>
+      <p>{{ with .Params.description1 }} {{ . | safeHTML }} {{ end }}</p>
+    </div>
+    </div>
+
+    <div class="offset-md-3 col-md-9 col-lg-9 col-sm-12 col-12 testimonail_product">
+        <div class="col-md-4 col-lg-4 col-sm-4 col-6 col-12 star_section">
+            <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+      
+                    <p>{{ with .Params.testiname2 }} {{ . | safeHTML }} {{ end }}</p>
+            </div>
+      <div class="col-md-8 col-lg-8 col-sm-8 col-8 col-12 text_section">
+          <strong>{{ with .Params.subtitle2 }} {{ . | safeHTML }} {{ end }}</strong>
+          <p>{{ with .Params.description2 }} {{ . | safeHTML }} {{ end }}</p>
+    </div>
+
+    </div>
+
+    <div class="col-md-9 col-lg-9 col-sm-12 col-12 testimonail_product">
+     <div class="col-md-4 col-lg-4 col-sm-4 col-6  col-12 star_section">
+      <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+
+              <p>{{ with .Params.testiname3 }} {{ . | safeHTML }} {{ end }}</p>
+      </div>
+      <div class="col-md-8 col-lg-8 col-sm-8 col-8 col-12 text_section">
+          <strong>{{ with .Params.subtitle3 }} {{ . | safeHTML }} {{ end }}</strong>
+          <p>{{ with .Params.description3 }} {{ . | safeHTML }} {{ end }}</p>
+    </div>
+    </div>
+    {{end}}
+  </div>
+
+</section>
+
+<section class="featured">
+  <div class="container">
+    <div class="col-sm-12 col-md-12 col-lg-12 h1 text-primary text-center mt-5" style="margin-bottom: 1.3em; color: #032248 !important">As Featured In </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-12 logo_icons">
+        <img src="../images/FeaturedImg1.png">
+      </div>
+
+      <div class="col-sm-3 col-md-3 col-lg-3 col-12 logo_icons">
+        <img src="../images/FeaturedImg2.png">
+      </div>
+
+      <div class="col-sm-3 col-md-3 col-lg-3 col-12 logo_icons">
+        <img src="../images/FeaturedImg3.png">
+      </div>
+
+      <div class="col-sm-3 col-md-3 col-lg-3 col-12 logo_icons">
+        <img src="../images/FeaturedImg4.png">
+      </div>
+      
+    </div>
+    
+  </div>
+
+  <div class="col-sm-12 col-md-12 col-lg-12 col-12" style="clear: both;">
+  </div>
+</section>
+<link rel="stylesheet" href="{{"css/productstyle.css" | absURL}} ">
+{{partial "we_accept.html" . }}
+
+{{ end }}

@@ -1,0 +1,35 @@
+.form-group {
+    margin-bottom: 0.6rem;
+}
+.fa{
+    font-size:20px;
+    cursor: pointer;
+}
+.table-bordered td, .table-bordered th{
+  border: 0px;
+  text-align: center;
+}
+
+thead{
+  background: #06264d;
+  color: #fff;
+  text-align: center;
+}
+tr {
+    border-bottom: 1px solid #eee;
+}
+tr.subtotal_row {
+  border-bottom: 0px;
+}
+
+input.price {
+  width: 50px;
+  text-align: center;
+}
+
+.remove{
+margin-left: 10px;
+}
+.refresh{
+margin-left: 10px;
+}

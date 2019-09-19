@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<div class="col-sm-12 h1 text-primary text-center mt-5 h1 pro1">{{.Title }}</div>
+<!-- panel group -->
+<div class="container text-justify">   
+        {{ .Content }}
+  </div>
+  <!-- panel group -->
+  <div class="container mt-5 mb-5">
+     
+      <div id="accordion">
+          {{ range $.Site.Data.faq.group }}
+
+        <div class="card text-justify">
+             {{ range $index, $element := .items }} 
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#Collapse{{$index}}">
+                 <div class="text-dark">{{$element.question}}</div>
+              </a>
+            </div>
+            <div id="Collapse{{$index}}" class="collapse" data-parent="#accordion">
+              <div class="card-body bg-dark text-white">
+                  {{$element.answer}}
+              </div>
+            </div>
+         
+          {{end}}
+        </div>
+        {{end}}
+    </div> 
+</div>   
+    
+{{partial "we_accept.html" . }}
+
+{{ end }}
+

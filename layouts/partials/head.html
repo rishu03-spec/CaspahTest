@@ -1,0 +1,31 @@
+ {{ if .Site.Params.headd.enable }}
+ <div class="container-fluid bg-dark">
+         <div class="container p-1">
+             <div class="row" style="margin-top: 10px;">
+                <div class="col-md-6 col-sm-6 bg-dark text-white ss text-left">{{.Site.Params.headd.title}}</div>    
+                 <div class="col-md-6 col-sm-6 bg-dark text-right">
+                     <ul class="list-inline mauto">
+					    {{ range .Site.Params.header.headerlinks }}
+						<li class="list-inline-item"><a href="{{ .URL }}" class="text-decoration-none text-white ">{{.headerlink | safeHTML }}</a> </li>
+						{{ end }}					 
+                    </ul>
+                </div>         
+            </div>
+        </div>
+ </div>
+<!-- header  start-->
+<header>
+    <div class="container">
+        <div class="col-6 text-center h1 logo">
+            <a href="{{.Site.BaseURL}}"><img src="{{ .Site.Params.logo | absURL }}"></a>
+        </div>
+        <div class="col-6 text-right" style="margin-top: -50px;position: relative;float: right;">
+            {{range .Site.Params.header.headersocials}}
+            {{.headersocial | safeHTML }}                    
+            {{end}}
+        </div>
+    </div> 
+</header>
+{{end}}
+    
+   

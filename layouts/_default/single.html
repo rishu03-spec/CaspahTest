@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="col-sm-12 h1 text-primary text-center mt-5" style="margin-bottom: 1em; color: #3089c9;">Artical</div>
+<section class="testi_text">   
+  <div class="container">
+    
+    <div class="col-md-12 col-sm-12 col-12 artical">            
+      <p>Home > Blog > {{ with .Title }} {{ . | safeHTML }} {{ end }}</p>
+      <h3>{{ with .Title }} {{ . | safeHTML }} {{ end }}</h3>
+      <div class="artical_image">
+            {{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive" alt="blog-image">{{end}}         
+      </div>             
+    </div>
+    <div class="col-md-12 col-sm-12 blog2">
+        <p class="text-justify">{{ with .Params.text1 }} {{ . | safeHTML }} {{ end }}</p>
+        <div class="col-md-6 col-sm-12 blog_wrap wrappr">
+                {{ with .Params.blogImg1 }}<img src="{{ . | absURL }}" class="img-responsive" alt="blog-image">{{end}}
+        </div>
+
+        <div class="col-md-6 col-sm-12 blog_wrap wrappr">
+                {{ with .Params.blogImg2 }}<img src="{{ . | absURL }}" class="img-responsive" alt="blog-image">{{end}}
+        </div>
+        <p class="text-justify">{{ with .Params.text2 }} {{ . | safeHTML }} {{ end }}</p>
+    </div> 
+   
+ </div>
+</section>
+{{partial "we_accept.html" . }}
+
+{{ end }}
+

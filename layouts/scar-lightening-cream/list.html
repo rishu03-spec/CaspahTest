@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="col-sm-12 h1 text-primary text-center mt-5" style="margin-bottom: 1em; color: #3089c9 !important">{{.Title}}</div>
+
+<section class="testi_text">
+  <div class="container">
+  <div class="col-md-12 col-12 col-sm-12">
+    <div class="col-md-4 col-4 col-sm-4 col-12 products_page">
+      <div class="caspah_product">
+        <a href="../cart">  {{ with .Params.offerImg1 }}<img src="{{ . | absURL }}" class="img-responsive" alt="Image">{{end}}</a>
+       </div>
+    </div>
+    <div class="col-md-4 col-4 col-sm-4 col-12 products_page">
+      <div class="caspah_product">
+        <a href="../cart">  {{ with .Params.offerImg2 }}<img src="{{ . | absURL }}" class="img-responsive" alt="Image">{{end}}</a>
+      </div>
+    </div>
+    <div class="col-md-4 col-4 col-sm-4 col-12 products_page">
+      <div class="caspah_product">
+        <a href="../cart">  {{ with .Params.offerImg3 }}<img src="{{ . | absURL }}" class="img-responsive" alt="Image">{{end}}</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="wrappr" style="clear: both;">
+  <div class="container">
+    <div class="col-md-12 col-lg-12 col-sm-12">
+      <p>{{.Params.text1}}</p>
+
+      <ul>
+        <li><img src="../images/checkmark.png" class="img-responsive checkmark"> {{.Params.listItem1}}</li>
+        <li><img src="../images/checkmark.png" class="img-responsive checkmark"> {{.Params.listItem2}}</li>
+        <li><img src="../images/checkmark.png" class="img-responsive checkmark"> {{.Params.listItem3}}</li>
+        <li><img src="../images/checkmark.png" class="img-responsive checkmark"> {{.Params.listItem4}}</li>
+        <li><img src="../images/checkmark.png" class="img-responsive checkmark"> {{.Params.listItem5}}</li>
+        <li><img src="../images/checkmark.png" class="img-responsive checkmark"> {{.Params.listItem6}}</li>
+        <li><img src="../images/checkmark.png" class="img-responsive checkmark"> {{.Params.listItem7}}</li>
+        <li><img src="../images/checkmark.png" class="img-responsive checkmark"> {{.Params.listItem8}}</li>
+      </ul>
+
+      <p>{{with .Params.text2}}{{ . | safeHTML }} {{ end }}</p>
+      
+    </div>
+
+    <div class="col-md-12 col-lg-12 col-sm-12">
+      <div class="layer_image">
+        <img src="../images/Layer_34.png" class="img-responsive">
+      </div>
+    </div>
+    
+  </div>
+  
+</section>
+{{partial "we_accept.html" . }}
+
+{{ end }}

@@ -1,0 +1,299 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Caspah_new"
+summaryLength = "7"
+
+
+
+# Menu
+[menu]
+	
+	[[menu.nav]]
+    name = "SALONS"
+    URL = "salons"
+    weight = 1
+
+    [[menu.nav]]
+    name = "PRODUCTS"
+    URL = "product"
+    weight = 2
+
+    [[menu.nav]]
+    name = "ABOUT US"
+    URL = "about"
+    weight = 3
+
+    [[menu.nav]]
+    name = "TESTIMONIAL"
+    URL = "testimonials"
+    weight = 4
+
+    [[menu.nav]]
+    name = "FAQ"
+    URL = "faq"
+    weight = 5
+
+    [[menu.nav]]
+    name = "BLOG"
+    URL = "blog"
+    weight = 6	
+	
+	[[menu.nav]]
+    name = "AFFILIATES"
+    URL = "affiliates"
+    weight = 7	
+	
+	[[menu.nav]]
+    name = "SITEMAP"
+    URL = "sitemap"
+    weight = 8
+	
+	[[menu.nav]]
+    name = "CONTACT US"
+    URL = "contact"
+    weight = 9
+
+    
+	
+#tophead
+[params.header]
+enable = true
+
+[[params.header.headerlinks]]
+headerlink = "<i class=\"fa fa-shopping-cart\" aria-hidden=\"true\" style=\"font-size:20px\"></i>"
+URL = "../cart"
+
+[[params.header.headersocials]]
+headersocial = "<i class=\"fa fa-twitter-square pro2 mr-2\" aria-hidden=\"true\"  style=\"font-size: 20px;cursor:pointer;\"></i>"
+URL = "javascript:void(0);"
+
+[[params.header.headersocials]]
+headersocial = "<i class=\"fa fa-instagram pro1 mr-2\" aria-hidden=\"true\"  style=\"font-size: 20px;cursor:pointer;\"></i>"
+URL = "javascript:void(0);"
+
+[[params.header.headersocials]]
+headersocial = "<i class=\"fa fa-facebook pro2\" aria-hidden=\"true\"  style=\"font-size: 20px;cursor:pointer;\"></i>"
+URL = "javascript:void(0);"
+	
+[params.headd]
+enable = true
+title= "FREE SHIPPING ORDERS OF CAD $50+ | Excludes Canadian Territories "
+
+# Global Settings
+[params]
+logo = "images/logo.png"
+
+#heroArea
+
+[params.heroArea]
+enable = true
+title= "REMOVE SKIN BLEMISHES WITH CASPAH </br> BLEACHING CREAM"
+[params.heroImg ] 
+url =  "images/bottels.png" 
+
+
+#feature1
+
+[[params.heroArea.feature1]]
+features1 = "No Hydroquinone"
+URL = "../images/leaf.png"
+
+[[params.heroArea.feature1]]
+features1 = "Safe and natural ingredients"
+URL = "../images/leaf.png"
+
+[[params.heroArea.feature1]]
+features1 = "Work on all skin type"
+URL = "../images/leaf.png"
+
+[[params.heroArea.feature1]]
+features1 = "Can be use on senstive skin"
+URL = "../images/leaf.png"
+
+#feature2
+
+[[params.heroArea.feature2]]
+features2 = "No Perfumes and paraben free"
+URL = "../images/leaf.png"
+
+[[params.heroArea.feature2]]
+features2 = "45 days gurantee"
+URL = "../images/leaf.png"
+
+[[params.heroArea.feature2]]
+features2 = "Discreet and free shipping"
+URL = "../images/leaf.png"
+
+#gallery item
+
+[params.gallery]
+enable = true
+
+[params.gallery.girltext]
+title= "WHY ARE CASPAH LISHTENING"
+subtitle="CREAMS SO <br>POPULAR? "
+text="Caspah has taken the lightening cream market by storm by creating safe and effective skin lightening creams that helps with the many skin blemishes experienced by people of all races. These blemishes come from many things such as scars, hyperpigmentation, birthmarks, dark underarms, age spots, and even a darker intimate area skin tone than usual. Caspah has been tested and proven to reduce the appearance of these blemishes by whitening or lightening the discolorations. "
+
+[params.gallery.girlskintype]
+title= "FOR ALL"
+subtitle="<b>SKIN TYPE</b>"
+text="Caspah lightening cream can be used on all skin types no matter what ethnicity you are. We have customers of Asian, Latino, African American, Indian, and caucasian descents. Caspah lightens all different skin tones regardless of your nationality"
+
+#we accept
+[params.weaccept]
+enable = true
+title= "We accept"
+description= "Have a Question? <a href=\"../faq\"class=\"text-white\">See Our FAQs"
+
+[params.weaccept.moneybackImg]
+url = "images/caspah_landing-2_34.gif"
+[[params.weaccept.cardpayment]]
+cardImg = "card/icon-pay-01.png"
+[[params.weaccept.cardpayment]]
+cardImg = "card/icon-pay-02.png"
+[[params.weaccept.cardpayment]]
+cardImg = "card/icon-pay-03.png"
+[[params.weaccept.cardpayment]]
+cardImg = "card/icon-pay-04.png"
+[[params.weaccept.cardpayment]]
+cardImg = "card/icon-pay-05.png"
+[[params.weaccept.cardpayment]]
+cardImg = "card/iconshopping.png"
+
+#products
+[params.products]
+enable=true
+title="PRODUCTS"
+
+[params.leftImg] 
+url =  "images/left-head.jpg" 
+[params.rightImg] 
+url =  "images/right-head.png" 
+
+#testimonial
+[params.testimonials]
+enable=true
+title="TESTIMONIALS"
+subtitle="WHAT OUR CLIENT SAY"
+
+
+#order section
+[params.ordersection]
+enable=true
+title="The Right Ingredients = Amazing Results"
+text=" Caspah uses safe and gentle natural ingredients in all our products. There is no hydroquinone in any of our creams. Hydroquinone is a known cancer causing agent and is banned in many countries throughout the world. Many lightening or bleaching creams use hydroquinone but fail to mention this on their website or in their marketing. They leave this out for a reason. We have a powerful solution that works amazing without using the unnecessary harmful ingredients. Caspah takes safe and natural ingredients and makes them into the most effective combination possible. We are so confident that if you are not satisfied with the results, you can take advantage of our 45 Day Guarantee"
+description="Why not go to experts? Reduce blemishes and skin discolorationsn fast with caspah"
+subtitle="NEED SKIN LIGHTENING? CASPAH WILL SHOW YOU RESULT."
+
+[params.bottleImg] 
+url="images/bottels.png"
+
+
+#offers area
+[params.offers]
+enable = true
+
+#client-testi
+[params.clienttesti]
+enable = true
+title="** All fields are required for a valid submission.**"
+#Footer 
+
+[params.footers]
+enable = true
+
+#information
+
+[[params.footers.informations]]
+information = "ABOUT US"
+URL = "about"
+
+[[params.footers.informations]]
+information = "CONTACT US"
+URL = "contact"
+
+[[params.footers.informations]]
+information = "SITEMAP"
+URL = "sitemap"
+
+[[params.footers.informations]]
+information = "TESTIMONIAL"
+URL = "testimonials"
+
+#your account
+
+[[params.footers.youraccount]]
+account = "PERSONAL INFO"
+URL = "personal-information"
+
+[[params.footers.youraccount]]
+account = "AFFILIATES"
+URL = "affiliates"
+
+#catogries
+
+[[params.footers.catogries]]
+catogry = "PRIVACY-POLICY"
+URL = "privacy_policy"
+
+[[params.footers.catogries]]
+catogry = "REFUND-POLICY"
+URL = "refund_policy"
+
+[[params.footers.catogries]]
+catogry = "SHIPPING-POLICY"
+URL = "shipping-policy"
+
+[[params.footers.catogries]]
+catogry = "WHOLESALE-ENQUIRY"
+URL = "wholesale-inquiry"
+
+[[params.footers.catogries]]
+catogry = "SALONS"
+URL = "salons"
+
+[[params.footers.catogries]]
+catogry = "FAQ"
+URL = "faq"
+
+#store information
+
+[[params.footers.storeinformation]]
+store = "HAMINTEC 4578 GLASGOW DO4 </br>UNITED STATES"
+icon = "fa fa-map-marker"
+URL = "javascript:void(0);"
+
+[[params.footers.storeinformation]]
+store = "123xxxxxxx"
+icon = "fa fa-phone"
+URL = "javascript:void(0);"
+
+[[params.footers.storeinformation]]
+store = "info@caspah.com"
+icon = "fa fa-envelope"
+URL = "mailto:info@caspah.com"
+
+#footer social media links
+[[params.footers.footersocials]]
+icon="fa fa-twitter"
+URL = "javascript:void(0);"
+
+[[params.footers.footersocials]]
+icon="fa fa-facebook"
+URL = "javascript:void(0);"
+
+[[params.footers.footersocials]]
+icon="fa fa-google-plus"
+URL = "javascript:void(0);"
+
+#Footer Copyright
+
+#Footer Copyright Text
+[params.footerCopyright]
+enable = true
+Text = "All Rights reserved."
+copyright = "[protolabzit.com](http://protolabzit.com/)"
+
+
+[permalinks]
+  blog = "/:filename/"

@@ -1,0 +1,80 @@
+<div class="container-fluid footer ">
+<div class="container">
+{{ if .Site.Params.footers.enable }}
+   
+                 <div class="row">
+                     <div class="col-md-3 col-lg-3 col-xl-3 text-left text-white mt-5">
+                        <h4>INFORMATION</h4><br>
+                        <ul>
+						    {{ range .Site.Params.footers.informations }}
+                            <li><a href="{{ .URL | absURL }}">{{.information}}</a> </li>
+							{{ end }}                            
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 text-left text-white mt-5">
+                        <h4>YOUR ACCOUNT</h4><br>
+                        <ul>
+                          {{ range .Site.Params.footers.youraccount }}
+                            <li><a href="{{ .URL | absURL }}">{{.account}}</a> </li>
+							{{ end }}                            
+                        </ul>
+                     </div>
+                     <div class="col-md-3 col-lg-3 col-xl-3 text-left text-white mt-5">
+                         <h4>CATEGORIES</h4><br>
+                            <ul>
+                              {{ range .Site.Params.footers.catogries }}
+                            <li><a href="{{ .URL | absURL }}">{{.catogry}}</a> </li>
+							{{ end }}  
+                            </ul>
+                     </div>
+                     <div class="col-md-3 col-lg-3 col-xl-3 text-left text-white mt-5">
+                         <h4>STORE INFORMATION</h4><br>
+                            <ul>
+							{{ range .Site.Params.footers.storeinformation }}
+                            <li><a href="{{ .URL | absURL }}"><i class="{{.icon}}" aria-hidden="true"></i> {{.store | safeHTML }}</a> </li>
+							<!-- <li><a href="{{ .URL }}"><i class="{{.icon}}" aria-hidden="true"></i> {{.store}}</a> </li> -->
+							{{ end }} 
+                                 
+                            </ul>
+							{{range .Site.Params.footers.footersocials}}
+							 <a href="#"> <i class="{{.icon}}" aria-hidden="true"></i></a>
+							 {{end}}
+                     </div>                  
+                 </div>
+{{ end }}
+
+
+{{ if .Site.Params.footerCopyright.enable }}  
+    <hr class="mt-5 p-0" style="border-color: grey;">
+    <div class="col-sm-12 text-center">Copyright ©<script>var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)</script> {{.Site.Params.footerCopyright.copyright | markdownify}} {{ with .Site.Params.footerCopyright.text }} {{ . }} {{ end }}</div>
+{{ end }}
+</div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  
+<script src="https://unpkg.com/scrollreveal"></script> 
+  <!-- <script src="https://unpkg.com/scrollreveal"></script>  -->
+  <!-- <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+       
+       <script>
+           window.sr = ScrollReveal();
+           sr.reveal('.pro1',{
+               duration:3000,
+               origin:'top',
+               distance:'30px'
+           });
+           sr.reveal('.pro2',{
+               duration:3000,
+               origin:'bottom',
+               distance:'50px'
+           });
+          
+         </script> -->
+        
+     </body>
+</html>
+

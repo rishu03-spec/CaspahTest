@@ -1,0 +1,44 @@
+{{ "<!-- products start -->" | safeHTML }}
+{{ if .Site.Params.products.enable}}
+ <section>
+	<div class="container">
+			<div class="col-md-12 h3 text-center mt-5">
+				<div class="row text-center">
+				<div class="col-md-5 col-lg-5 col-sm-4" >
+				{{ with .Site.Params.leftImg }}<img src="{{ .url | absURL }}" class="ero img-fluid phoneshot" />{{end}}                            
+				</div>
+				<div class="col-md-3 col-lg-2 col-sm-4 pro2 prd text-center h2">{{ with .Site.Params.products.title }} {{ . | safeHTML }} {{ end }}</div>
+				<div class="col-md-4 col-lg-5 col-sm-4">
+				{{ with .Site.Params.rightImg }}<img src="{{ .url | absURL }}" class="ero img-fluid phoneshot">{{end}} 						
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="container text-center">    
+			<div class="row">
+				{{ range (where .Data.Pages "Type" "homeproduct")}}
+					<div class="col-sm-4 mt-3 pro1">							
+						<div style="box-shadow: -2px 5px 10px 4px #f1f1f1; padding: 10px;">								
+							<a class="nav-link" href="{{ .Params.productlink | absURL }}">{{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive" style="width:100%" alt="Image" />{{end}}</a>
+							<p class="h2"><a class="nav-link" href="{{ .Params.productlink | absURL }}">{{ with .Title }} {{ . | safeHTML }} {{ end }}</a></p>
+							<p class="h5">{{ with .Description }} {{ . | safeHTML }} {{ end }}</p>								
+						<div class="row">
+						<div class="col-md-6 col-lg-6 col-sm-12 col-6"><a href="../cart" class="text-left acolor">Order now</a></div>
+						<div class="col-md-6 col-lg-6 col-sm-12 col-6">
+							<img src="../images/star.png" class="ice">
+							<img src="../images/star.png" class="ice">
+							<img src="../images/star.png" class="ice">
+							<img src="../images/star.png" class="ice">
+							<img src="../images/star1.png" class="ice">
+						</div>
+						</div>
+						</div>
+					</div>
+				{{end}}                               
+			</div>
+		</div>            
+ </section> 
+{{end}}
+
+
+	 

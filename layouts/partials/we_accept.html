@@ -1,0 +1,21 @@
+{{ if .Site.Params.weaccept.enable }}
+<div class="container mt-5">
+    <div class="row phoneview">
+        <div class="col-md-6 col-sm-6">
+                {{ with .Site.Params.weaccept.moneybackImg }}<img src="{{.url | absURL}}" class="lastimg icenter" style="width:100px;">{{ end }}
+            </div>
+       <!-- <div class="col-sm-2 p-2 h6 text-dark text-center Weaccept ">{{ with .Site.Params.weaccept.title }} {{ . | safeHTML }} {{ end }}</div><br> -->
+  <div class="col-md-6 col-sm-6 p-t-40">
+    <div class="flex-c-m flex-w p-b-18 cardd" style="padding-top:44px;">
+       {{ range .Site.Params.weaccept.cardpayment }}
+       <!-- <div class="col-sm-1"><img src="{{.cardImg | absURL}}" class="img-fluid lastimg"></div> -->
+       <a href="#" class="m-all-1">
+        <img src="{{.cardImg | absURL}}" alt="ICON-PAY">
+        </a>
+       {{end}}  
+    </div>    
+ </div>   
+</div>
+</div>
+<div class="col-sm-12 bg-primary  text-center p-2 text-white">{{ with .Site.Params.weaccept.description }} {{ . | safeHTML }} {{ end }}</a></div>
+{{end}}
