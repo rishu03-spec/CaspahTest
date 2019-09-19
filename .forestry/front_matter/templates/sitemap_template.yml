@@ -1,0 +1,16 @@
+---
+label: Sitemap_template
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: file
+  name: image
+  label: image
