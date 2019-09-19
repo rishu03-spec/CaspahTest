@@ -1,55 +1,35 @@
 id = "basics"
 name = "Basics"
-
 [[items]]
-
-question = "Does caspah really work?"
+answer = "An airless bottle is exactly as it sounds. It is a bottle that allows no air to remain in the part of the bottle that holds the cream once you start to use it. If exposed, oxygen reduces the potency and effectiveness of the product over time so it is important keep as much oxygen out as possible. This is why we use more expensive, but necessary, airless bottles."
+question = "What is an airless bottle?"
+[[items]]
 answer = "Of course it does. We would not be in business if it did not work. We would also not offer a 45 day guarantee if you are not happy with the results."
-
+question = "Does caspah really work?"
 [[items]]
-
-question = "Does caspah contain any harmful Ingredients?"
 answer = " No they do not. There is no hydroquinone, mercury, perfumes, parabens or any other harmful ingredients in our product. Our ingredients are meant to safe, gentle, and natural, which is why you can use them on sensitive and intimate areas."
-
+question = "Does caspah contain any harmful Ingredients?"
 [[items]]
-
-question = "How do skin bleaching cream work?"
 answer = "Skin lightening creams work by blocking the production of melanin (color) in new forming skin cells. Old skin cells will gradually die off and be replenished with new skin cells that contain less melanin which will eventually result in a lighter skin tone"
-
+question = "How do skin bleaching cream work?"
 [[items]]
-
-question = "Can i mix and match cream with the multiple bottle  offers?"
 answer = "Yes, you can. Since our shopping cart system is not set up for this, you can simply choose any multiple bottle deal and when you go to checkout there is a comment section. Please just let us know which bottles you would like to purchase in this section."
-
+question = "Can i mix and match cream with the multiple bottle  offers?"
 [[items]]
-
-question = "Can you ship internationally(outside of the USA)?"
 answer = "Yes, we ship world wide. You will just need to choose one of the two international shipping methods available at checkout if you live outside of the United States."
-
+question = "Can you ship internationally(outside of the USA)?"
 [[items]]
-
-question = "Should i combine anything else with caspah?"
 answer = "It is generally a good idea not to combine other creams or treatments with Caspah to avoid mixing anything that might cause irritation. However, if the part of your body that has Caspah applied to it will be exposed to direct sunlight for extended periods of time, you should use an SPF 30+ sunblock on the area after it has absorbed into the skin and dried."
-
+question = "Should i combine anything else with caspah?"
 [[items]]
-
-question = "Should i use caspah when if i am pregnant?"
 answer = " We do not recommend using Caspah or any skin care products during pregnancy or breastfeeding. Skin care creams can be absorbed into the blood stream through your skin. Due to the unknown, it is recommended that you wait until pregnancy and breast feeding has ceased to begin applications. Also, pregnancy hormones can be a major factor in the darkening of the skin and discoloration may continue until pregnancy is over."
-
+question = "Should i use caspah when if i am pregnant?"
 [[items]]
-
-question = "Can i use an exfoliator in combination with caspah?"
 answer = "Using an exfoliator will cause your skin to become more sensitive so we do not recommend using both at the same time."
-
+question = "Can i use an exfoliator in combination with caspah?"
 [[items]]
-
-question = "When should i stop using caspah?"
 answer = "Use cream as directed until you have achieved your desired skin tone."
-
+question = "When should i stop using caspah?"
 [[items]]
-
-question = "How large are your bottles?"
 answer = "Bottles are 1.7 ounce airless bottles for maximum potency. Many competitors sell 1 ounce bottles that look very similar. Some even sell .5 ounce bottles in the same or higher price range."
-
-
-
+question = "How large are your bottles?"
