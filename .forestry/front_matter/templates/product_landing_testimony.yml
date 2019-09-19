@@ -1,0 +1,40 @@
+---
+label: Product_Landing_Testimony
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: testiname1
+  label: testiname1
+- type: text
+  name: subtitle1
+  label: subtitle1
+- type: textarea
+  name: description1
+  label: description1
+- type: text
+  name: testiname2
+  label: testiname2
+- type: text
+  name: subtitle2
+  label: subtitle2
+- type: textarea
+  name: description2
+  label: description2
+- type: text
+  name: testiname3
+  label: testiname3
+- type: text
+  name: subtitle3
+  label: subtitle3
+- type: textarea
+  name: description3
+  label: description3
