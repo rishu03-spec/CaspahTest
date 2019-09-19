@@ -9,5 +9,6 @@ fields:
   name: date
   label: date
 pages:
+- content/checkout/_index.md
 - content/affilate-signup/_index.md
 - content/blog/_index.md
