@@ -1,9 +1,6 @@
 id = "basics"
 name = "Basics"
 [[items]]
-answer = "An airless bottle is exactly as it sounds. It is a bottle that allows no air to remain in the part of the bottle that holds the cream once you start to use it. If exposed, oxygen reduces the potency and effectiveness of the product over time so it is important keep as much oxygen out as possible. This is why we use more expensive, but necessary, airless bottles."
-question = "What is an airless bottle?"
-[[items]]
 answer = "Of course it does. We would not be in business if it did not work. We would also not offer a 45 day guarantee if you are not happy with the results."
 question = "Does caspah really work?"
 [[items]]
@@ -33,3 +30,6 @@ question = "When should i stop using caspah?"
 [[items]]
 answer = "Bottles are 1.7 ounce airless bottles for maximum potency. Many competitors sell 1 ounce bottles that look very similar. Some even sell .5 ounce bottles in the same or higher price range."
 question = "How large are your bottles?"
+[[items]]
+answer = "An airless bottle is exactly as it sounds. It is a bottle that allows no air to remain in the part of the bottle that holds the cream once you start to use it. If exposed, oxygen reduces the potency and effectiveness of the product over time so it is important keep as much oxygen out as possible. This is why we use more expensive, but necessary, airless bottles."
+question = "What is an airless bottle?"
