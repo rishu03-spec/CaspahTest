@@ -5,6 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: data/faq/group
+  label: data
+  create: all
+  match: "**/*"
+  new_doc_ext: ".toml"
+- type: directory
   path: content
   label: Pages
   create: all
