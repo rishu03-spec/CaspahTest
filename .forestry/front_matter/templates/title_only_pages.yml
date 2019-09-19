@@ -1,0 +1,10 @@
+---
+label: Title_Only_Pages
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
