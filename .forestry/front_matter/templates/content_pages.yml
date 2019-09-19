@@ -9,4 +9,5 @@ fields:
   name: date
   label: date
 pages:
+- content/salons/_index.md
 - content/privacy_policy/_index.md
