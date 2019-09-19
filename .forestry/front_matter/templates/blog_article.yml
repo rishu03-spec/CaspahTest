@@ -27,7 +27,7 @@ fields:
   name: text2
   label: text2
 pages:
-- content/blog/blog4.md
-- content/blog/blog3.md
-- content/blog/blog1.md
 - content/blog/blog2.md
+- content/blog/blog4.md
+- content/blog/blog1.md
+- content/blog/blog3.md
