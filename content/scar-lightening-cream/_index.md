@@ -24,6 +24,5 @@ listItem5: Tummy Tuck Scars
 listItem6: Burn Scars
 listItem7: Piercing Scars
 listItem8: Other Accidental Scars
-draft: true
 
 ---
