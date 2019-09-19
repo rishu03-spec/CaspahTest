@@ -1,9 +1,9 @@
 ---
-title: Salons
+title: Salons 222
 date: 2019-08-31T13:24:06.000+00:00
 
 ---
-## Skin Bleaching Salons
+## Skin Bleaching Salons 222
 
 Many salons and skin care doctors in the United States and all around the world offer skin lightening treatments as a service or at least retail specialized "do it yourself" skin lightening products to use in the privacy of your own home.
 
