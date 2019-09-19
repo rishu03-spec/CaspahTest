@@ -18,4 +18,5 @@ fields:
   name: description
   label: description
 pages:
+- content/wholesale-inquiry/saleproduct3.md
 - content/wholesale-inquiry/saleproduct1.md
