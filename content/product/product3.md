@@ -1,9 +1,7 @@
 ---
-title: "Scar"
-date: 2019-08-30T18:05:05+05:30
-draft: true
-type: "product"
-image: "images/caspah_landing-2_28.gif"
-description: "Lightening cream"
----
+title: Scar
+date: 2019-08-30T12:35:05.000+00:00
+image: images/caspah_landing-2_28.gif
+description: Lightening cream
 
+---
