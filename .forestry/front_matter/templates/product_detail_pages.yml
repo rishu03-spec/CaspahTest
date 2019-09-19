@@ -1,0 +1,49 @@
+---
+label: Product_Detail_Pages
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: offerImg1
+  label: offerImg1
+- type: file
+  name: offerImg2
+  label: offerImg2
+- type: file
+  name: offerImg3
+  label: offerImg3
+- type: textarea
+  name: text1
+  label: text1
+- type: textarea
+  name: text2
+  label: text2
+- type: text
+  name: listItem1
+  label: listItem1
+- type: text
+  name: listItem2
+  label: listItem2
+- type: text
+  name: listItem3
+  label: listItem3
+- type: text
+  name: listItem4
+  label: listItem4
+- type: text
+  name: listItem5
+  label: listItem5
+- type: text
+  name: listItem6
+  label: listItem6
+- type: text
+  name: listItem7
+  label: listItem7
+- type: text
+  name: listItem8
+  label: listItem8
