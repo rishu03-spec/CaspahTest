@@ -21,4 +21,5 @@ fields:
   name: message1
   label: message1
 pages:
+- content/testimonial1.md
 - content/testimonial2.md
