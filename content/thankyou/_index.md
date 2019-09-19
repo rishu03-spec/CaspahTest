@@ -1,10 +1,9 @@
 ---
-title: "Thank You - Please Read"
-date: 2019-08-31T13:53:24+05:30
-draft: false
----
+title: Thank You - Please Read
+date: 2019-08-31T08:23:24.000+00:00
 
- Thank you for purchasing Caspah Lightening Creams. We appreciate your business. Your order will be shipped within 24-48 hours via USPS mail. It will be in discreet packaging with only the mention of "Caspah" on the return address and for privacy reasons and will not mention anything to do with the type of product inside. Please allow time for skin cells to die off and be replenished with new skin cells for visual results to begin. The skin sheds its cells about every 30 days give or take a week and will replace the old cells with new ones containing less melanin (color) which results in the gradual fade in skin tone. Continue this cycle until desired skin tone is reached. We are confident you will be happy with your purchase.
+---
+Thank you for purchasing Caspah Lightening Creams. We appreciate your business. Your order will be shipped within 24-48 hours via USPS mail. It will be in discreet packaging with only the mention of "Caspah" on the return address and for privacy reasons and will not mention anything to do with the type of product inside. Please allow time for skin cells to die off and be replenished with new skin cells for visual results to begin. The skin sheds its cells about every 30 days give or take a week and will replace the old cells with new ones containing less melanin (color) which results in the gradual fade in skin tone. Continue this cycle until desired skin tone is reached. We are confident you will be happy with your purchase.
 
 
 This purchase will show up on your CC statement as:
