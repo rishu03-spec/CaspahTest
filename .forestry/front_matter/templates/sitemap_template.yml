@@ -15,5 +15,6 @@ fields:
   name: image
   label: image
 pages:
+- content/sitemap/sitemapProduct2.md
 - content/sitemap/sitemapProduct3.md
 - content/sitemap/sitemapProduct1.md
