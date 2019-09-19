@@ -20,3 +20,5 @@ fields:
 - type: text
   name: description3
   label: description3
+pages:
+- content/product/whysection.md
