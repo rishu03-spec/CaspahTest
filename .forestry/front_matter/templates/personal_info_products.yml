@@ -15,5 +15,6 @@ fields:
   name: image
   label: image
 pages:
+- content/personal-information/infoProduct2.md
 - content/personal-information/infoProduct3.md
 - content/personal-information/infoProduct1.md
