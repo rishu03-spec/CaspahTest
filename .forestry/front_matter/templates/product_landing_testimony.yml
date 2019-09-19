@@ -38,3 +38,5 @@ fields:
 - type: textarea
   name: description3
   label: description3
+pages:
+- content/product/producttesti1.md
