@@ -47,3 +47,5 @@ fields:
 - type: text
   name: listItem8
   label: listItem8
+pages:
+- content/scar-lightening-cream/_index.md
