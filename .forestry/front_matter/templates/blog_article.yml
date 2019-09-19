@@ -1,0 +1,28 @@
+---
+label: Blog_Article
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: type
+  label: type
+- type: file
+  name: blogImg1
+  label: blogImg1
+- type: file
+  name: blogImg2
+  label: blogImg2
+- type: textarea
+  name: text1
+  label: text1
+- type: textarea
+  name: text2
+  label: text2
