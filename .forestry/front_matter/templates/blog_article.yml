@@ -26,3 +26,5 @@ fields:
 - type: textarea
   name: text2
   label: text2
+pages:
+- content/blog/blog2.md
