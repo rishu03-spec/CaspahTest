@@ -1,9 +1,7 @@
 ---
-title: "Intimate Area"
-date: 2019-08-30T18:04:51+05:30
-draft: true
-type: "product"
-image: "images/caspah_landing-2_24.gif"
-description: "Lightening cream"
----
+title: Intimate Area
+date: 2019-08-30T12:34:51.000+00:00
+image: images/caspah_landing-2_24.gif
+description: Lightening cream
 
+---
