@@ -1,7 +1,7 @@
 ---
 title: Scar Lightening Cream
 date: 2019-08-31T13:24:23.000+00:00
-offerImg1: "../images/Layer_35.png"
+offerImg1: "/images/FeaturedImg4.png"
 offerImg2: "../images/Layer_36.png"
 offerImg3: "../images/Layer_37.png"
 text1: |-
