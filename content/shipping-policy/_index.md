@@ -1,9 +1,8 @@
 ---
-title: "Our Shipping Policy"
-date: 2019-09-18T10:22:44+05:30
-draft: true
----
+title: Our Shipping Policy
+date: 2019-09-18T04:52:44.000+00:00
 
+---
 ## All packaging is discreet!
 
 All orders are shipped via the US Postal Service. Your order will be shipped within 24-48 hours of making your purchase. PayPal purchases generally are shipped faster than credit card purchases because payment is instant. All of the times given for each delivery method are estimates provided by the USPS in business days. Since we are not delivering these packages ourselves, there is no way we can guarantee delivery within these time frames although they are generally good estimate. Foreign deliveries need to take into consideration that all customs times will vary for each country so these estimated delivery times can vary drastically in countries with long customs processing times (ie. European countries).You may request a refund if your order has not yet been shipped, but you will be charged a 6.5% processing fee since processing fees are non-refundable once the order has been processed. Each order is processed at 12am EST.
