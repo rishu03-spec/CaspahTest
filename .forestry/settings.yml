@@ -1,0 +1,142 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/scar-lightening-cream
+  label: Scar lightening cream
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/about
+  label: About
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/intimate-lightening-cream
+  label: Intimate lightening cream
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/refund_policy
+  label: Refund policy
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/cart
+  label: Cart
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/product
+  label: Product
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/personal-information
+  label: Personal information
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/sitemap
+  label: Sitemap
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/privacy_policy
+  label: Privacy policy
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/salons
+  label: Salons
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/faq
+  label: Faq
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/testimonials
+  label: Testimonials
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/wholesale-inquiry
+  label: Wholesale inquiry
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/spot-lightening-cream
+  label: Spot lightening cream
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/anal-bleaching
+  label: Anal bleaching
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/vaginal-bleaching
+  label: Vaginal bleaching
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/affilate-signup
+  label: Affilate signup
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/affiliates
+  label: Affiliates
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/shipping-policy
+  label: Shipping policy
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/thankyou
+  label: Thankyou
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/checkout
+  label: Checkout
+  create: all
+  match: "**/*"
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.58.2
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
+version: 0.58.2
