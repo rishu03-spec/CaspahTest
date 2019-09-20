@@ -1,6 +1,9 @@
 id = "basics"
 name = "Basics"
 [[items]]
+answer = "Software, in its most general sense, is a set of instructions or programs instructing a computer to do specific tasks. Software is a generic term used to describe "
+question = "what is software"
+[[items]]
 answer = "Of course it does. We would not be in business if it did not work. We would also not offer a 45 day guarantee if you are not happy with the results."
 question = "Does caspah really work?"
 [[items]]
