@@ -3,8 +3,14 @@ label: Blocks
 hide_body: false
 fields:
 - name: layout
-  type: text
-  config:
-    required: false
+  type: blocks
   label: Layout
+  template_types:
+  - scar_template
+  - home_testimonial
+  - product_whysection
+  - title_only_pages
+  config:
+    min: '2'
+    max: '4'
   hidden: true
