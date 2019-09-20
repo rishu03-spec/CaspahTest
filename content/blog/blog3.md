@@ -2,6 +2,7 @@
 title: 7 Soaps to Supercharge Your Daily Skincare Routine
 date: 2018-12-26T06:23:10.000+00:00
 image: images/Rectangle41.png
+type: "blog"
 blogImg1: "/images/single31.png"
 blogImg2: "/images/singl2 1.png"
 text1: "Beauty Dust is very pretty to look at and it tastes like nothing, which is

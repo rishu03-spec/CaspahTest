@@ -2,6 +2,7 @@
 title: 'Urban Decay Beach Bronzer: The sun is optional'
 date: 2018-12-26T06:23:10.000+00:00
 image: images/urbenBleach.jpg
+type: "blog"
 blogImg1: "/images/single31.png"
 blogImg2: "/images/singl2 1.png"
 text1: "I actually first read this as alkalizing meaning effecting pH level, and I
