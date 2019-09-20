@@ -9,7 +9,7 @@ sections:
   label: blocks
   create: all
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: ".yml"
   templates:
   - product_whysection
   - scar_template
