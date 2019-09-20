@@ -42,8 +42,8 @@
     {{ range (where .Data.Pages "Type" "product")}}
   <div class="col-sm-4 mt-3 pro1">
     <div class="caspah_product"  style="box-shadow: -2px 5px 10px 4px #f1f1f1; padding: 10px;">
-        {{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive" style="width:100%" alt="Image">{{end}}
-     <h3 style="text-align:center;">{{ with .Title }} {{ . | safeHTML }} {{ end }}</h3>
+      <a class="nav-link" href="{{ .Params.productlink | absURL }}">{{ with .Params.image }}<img src="{{ . | absURL }}" class="img-responsive" style="width:100%" alt="Image">{{end}}</a>
+     <h3 style="text-align:center;"><a class="nav-link" href="{{ .Params.productlink | absURL }}">{{ with .Title }} {{ . | safeHTML }} {{ end }}</a></h3>
      <p style="text-align:center;">{{ with .Description }} {{ . | safeHTML }} {{ end }}</p>     
         <div class="row">
 						<div class="col-md-6 col-lg-6 col-sm-12 col-6"><a href="../cart" class="text-left acolor" style="color: #f48e8a;">Order now</a></div>
