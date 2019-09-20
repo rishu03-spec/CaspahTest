@@ -5,6 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: layout/partials
+  label: blocks
+  create: all
+  match: "**/*"
+  new_doc_ext: ".html"
+- type: directory
   path: data/faq/group
   label: data
   create: all
