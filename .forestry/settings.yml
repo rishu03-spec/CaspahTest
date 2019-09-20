@@ -10,6 +10,10 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: ".html"
+  templates:
+  - product_whysection
+  - scar_template
+  - home_testimonial
 - type: directory
   path: data/faq/group
   label: data
