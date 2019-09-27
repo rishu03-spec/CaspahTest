@@ -1,5 +1,5 @@
 ---
-title: testing skins
+title: 5 Skin Care Rituals You Should Be Doing Before Bed
 date: 2018-12-26T06:23:10.000+00:00
 image: "/images/Rectangle41.png"
 blogImg1: "/images/singl2 1.png"
