@@ -7,6 +7,6 @@ Caspah saw an early need for sensitive skin lightening products in the skin care
 
 Caspah products are sold all over the world and we are one of the most dominant brands with a direct focus in the lightening cream market. We have offered our products long before major skin care brands have developed similar, smaller, and more expensive alternatives. We offer world class support and will make your buying process as easy as possible. Please contact us or use our live chat support if you have any questions, concerns, or problems and you will receive a reply very quickly.
 
-## Our Mission
+## Our Mission Caspah
 
 "At Caspah, our mission is to provide a safe and effective way to lighten your skin and rid of blemishes at an affordable price. By choosing to specialize in lightening creams, we like to think of ourselves as experts in the field. We will continue to be pioneers in our niche and deliver quality products."

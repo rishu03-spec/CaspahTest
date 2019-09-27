@@ -9,6 +9,7 @@ fields:
   name: date
   label: date
 pages:
+- content/about/_index.md
 - content/contact/_index.md
 - content/faq/_index.md
 - content/affiliates/_index.md
@@ -16,5 +17,4 @@ pages:
 - content/salons/_index.md
 - content/shipping-policy/_index.md
 - content/thankyou/_index.md
-- content/about/_index.md
 - content/privacy_policy/_index.md
