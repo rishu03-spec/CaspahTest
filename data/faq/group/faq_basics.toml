@@ -1,6 +1,9 @@
 id = "basics"
 name = "Basics"
 [[items]]
+answer = "The current shelf life is 18 months."
+question = "What is the shelf life of one bottle of Caspah?"
+[[items]]
 answer = "Of course it does. We would not be in business if it did not work. We would also not offer a 45 day guarantee if you are not happy with the results."
 question = "Does caspah really work?"
 [[items]]
