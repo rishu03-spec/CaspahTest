@@ -1,7 +1,7 @@
 ---
 title: testing skins
 date: 2018-12-26T06:23:10.000+00:00
-image: "/images/babysh.jpg"
+image: "/images/client1.jpg"
 blogImg1: "/images/singl2 1.png"
 blogImg2: "/images/single31.png"
 text1: "That’s all I’ve got & it’s nothing new. But my gratitude and holiday weekend
